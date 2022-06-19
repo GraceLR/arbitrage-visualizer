@@ -1,8 +1,8 @@
 import express, { Express } from 'express';
 import morgan from 'morgan';
-import { db_connect, db_insert, db_export } from './db/db_operations';
+import db_operations from './db/db_operations';
 
-db_connect();
+db_operations.db_connect();
 
 // Web server config
 const PORT = process.env.PORT || 8080;
@@ -15,15 +15,18 @@ router.use(express.urlencoded({ extended: false }));
 /** Takes care of JSON data */
 router.use(express.json());
 
+const api = require("./routes/api");
+
+router.use("/api", api());
+
 router.get("/", (req, res) => {
     console.log('router.get("/") successfull####');
-    db_export();
 });
 
 router.post("/", (req, res) => {
     console.log('router.post("/") successfull')
     const { block, profit, nodesName } = req.body.params;
-    db_insert(block, profit, nodesName).then(data => res.send(data));
+    db_operations.db_insert(block, profit, nodesName).then(data => res.send(data));
 });
 
 router.listen(PORT, () => {
