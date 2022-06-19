@@ -1,28 +1,24 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const [apiStatus, setApiStatus] = useState(null);
+    // const [apiStatus, setApiStatus] = useState(null);
 
-  const getStatus = () => 
-    axios.get("http://localhost:6060/status")
-      .then(res => setApiStatus(res.data.message));
+    // const getStatus = () =>
+    //     axios.get('http://localhost:6060/status').then((res) => {
+    //         console.log('#####', 'trigdered');
+    //         setApiStatus(res.data.message);
+    //     });
 
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          API STATUS: {apiStatus ?? "DOWN!!!"}
-        </p>
-        <button onClick={getStatus}>
-          Fetch API Status
-        </button>
-      </header>
-    </div>
-  );
+    let draft = undefined;
+    axios.get('http://localhost:8080').then((res) => {
+        console.log('axios.get triggered###########');
+        draft = res;
+        console.log(draft, 'draft###########');
+    });
+
+    return <div className="App">{draft}</div>;
 }
 
 export default App;
