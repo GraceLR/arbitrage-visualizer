@@ -1,16 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { Node } from '../types/types';
 
 function Graph(props: {selected: number}) {
-    const [cycle, setCycle] = useState([]);
+    const [cycle, setCycle] = useState<Node[]>([]);
     useEffect(() => {
-        axios.get(`/api/arbs/${props.selected}`)
+        axios.get<Node[]>(`/api/arbs/${props.selected}`)
         .then(all => {
-            setCycle(_prev => all.data.rows);
+            setCycle(_prev => all.data);
         });
       }, [props.selected]);
     return <div>
-        {cycle}
+        {cycle.map(n => n.node_name)}
     </div>;
 }
 
