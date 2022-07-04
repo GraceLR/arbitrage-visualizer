@@ -4,10 +4,9 @@ import { Arb } from '../types/types';
 
 import DropdownItem from './DropdownItem';
 
-function Dropdown(props: {arbs: Arb[]}) {  
+function Dropdown(props: {arbs: Arb[], selected: number, setSelected: React.Dispatch<React.SetStateAction<any>>}) {  
     const optionsBar = props.arbs.map((arb) => <DropdownItem key={arb.id} arb={arb} />);
-    const [selected, setSelected] = useState(props.arbs[0].id);
-    return <select value={selected} onChange={(event) => setSelected(parseInt(event.target.value))}>
+    return <select value={props.selected} onChange={(event) => props.setSelected(parseInt(event.target.value))}>
         {optionsBar}
     </select>
 }

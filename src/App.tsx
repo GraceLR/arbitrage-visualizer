@@ -5,18 +5,20 @@ import Dropdown from './components/Dropdown';
 import Graph from './components/Graph';
 import { Arb } from './types/types';
 
-
 function App() {
-    const [apiStatus, setApiStatus] = useState<Arb[]>([]);
+    const [arbs, setArbs] = useState<Arb[]>([]);
+    const [selected, setSelected] = useState<number>(-1);
     useEffect(() => {
-        axios.get<Arb[]>("/api")
+        axios.get<Arb[]>("/api/arbs")
         .then(all => {
-            setApiStatus((_prev) => all.data);
+            const arbs = all.data;
+            setArbs(_prev => arbs);
+            setSelected(_prev => arbs[0].id);
         });
       }, []);
-
     return <div className="App">
-        <Dropdown arbs={apiStatus} />
+        {arbs.length > 0 && <Dropdown arbs={arbs} selected={selected} setSelected={setSelected} />}
+        {selected > -1 && <Graph selected={selected} />}
         </div>;
 }
 

@@ -1,15 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-function Graph() {
-    // const [apiStatus, setApiStatus] = useState<any>(null);
-    // useEffect(() => {
-    //     axios.get("/api")
-    //     .then(all => {
-    //         setApiStatus((_prev:any) => all.data.names);
-    //     });
-    //   }, []);
-    // return <div className="App">{apiStatus}</div>;
+function Graph(props: {selected: number}) {
+    const [cycle, setCycle] = useState([]);
+    useEffect(() => {
+        axios.get(`/api/arbs/${props.selected}`)
+        .then(all => {
+            setCycle(_prev => all.data.rows);
+        });
+      }, [props.selected]);
+    return <div>
+        {cycle}
+    </div>;
 }
 
 export default Graph;
