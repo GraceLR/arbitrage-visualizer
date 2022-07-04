@@ -1,6 +1,6 @@
 import express, { Express } from 'express';
 import morgan from 'morgan';
-import db_operations from './db/db_operations';
+import db_operations from "./db/db_operations";
 
 db_operations.db_connect();
 
