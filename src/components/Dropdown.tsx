@@ -11,7 +11,6 @@ import DropdownItem from './DropdownItem';
 
 function Dropdown(props: {
     arbs: Arb[];
-    selected: number;
     setSelected: React.Dispatch<React.SetStateAction<any>>;
 }) {
     const optionsBar = props.arbs.map((arb) => (
@@ -28,6 +27,9 @@ function Dropdown(props: {
                     inputProps={{
                         name: 'arbitrage',
                         id: 'uncontrolled-native',
+                    }}
+                    onChange={(event) => {
+                        props.setSelected(event.target.value);
                     }}
                 >
                     {optionsBar}
