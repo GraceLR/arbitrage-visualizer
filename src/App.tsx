@@ -9,17 +9,24 @@ function App() {
     const [arbs, setArbs] = useState<Arb[]>([]);
     const [selected, setSelected] = useState<number>(-1);
     useEffect(() => {
-        axios.get<Arb[]>("/api/arbs")
-        .then(all => {
+        axios.get<Arb[]>('/api/arbs').then((all) => {
             const arbs = all.data;
-            setArbs(_prev => arbs);
-            setSelected(_prev => arbs[0].id);
+            setArbs((_prev) => arbs);
+            setSelected((_prev) => arbs[0].id);
         });
-      }, []);
-    return <div className="App">
-        {arbs.length > 0 && <Dropdown arbs={arbs} selected={selected} setSelected={setSelected} />}
-        {selected > -1 && <Graph selected={selected} />}
-        </div>;
+    }, []);
+    return (
+        <div className="App">
+            {arbs.length > 0 && (
+                <Dropdown
+                    arbs={arbs}
+                    selected={selected}
+                    setSelected={setSelected}
+                />
+            )}
+            {selected > -1 && <Graph selected={selected} />}
+        </div>
+    );
 }
 
 export default App;
