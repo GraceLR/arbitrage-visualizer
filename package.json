@@ -11,14 +11,14 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.1",
     "@types/node": "^16.11.36",
-    "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.4",
     "@types/react-router-dom": "^5.3.3",
     "axios": "^0.24.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-graph-vis": "^1.0.7",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "typescript": "^4.6.4",
     "web-vitals": "^2.1.4"
   },
@@ -52,5 +52,9 @@
     "semi": true,
     "singleQuote": true
   },
-  "proxy": "http://localhost:8080"
+  "proxy": "http://localhost:8080",
+  "devDependencies": {
+    "@types/react": "^18.0.18",
+    "@types/vis": "^4.21.24"
+  }
 }
