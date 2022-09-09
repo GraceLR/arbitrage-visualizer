@@ -13,12 +13,8 @@ const options = {
     },
 };
 const events = {
-    select: (nodes: any, edges: any) => {
-        console.log('Selected nodes:');
-        console.log(nodes);
-        console.log('Selected edges:');
-        console.log(edges);
-        alert('Selected node: ' + nodes);
+    select: (selected: any) => {
+        console.log(selected);
     },
 };
 
@@ -29,17 +25,33 @@ function Graph(props: { selected: number }) {
         const getMap = async (arb_id: number) => {
             const mapData = await axios.get<Map>(`/api/arbs/${arb_id}`);
             // setMap((_prev) => mapData.data);
+            const nodesWithPos: { [key: number]: boolean } = {};
+            const edges = mapData.data.exchangepair.map((p) => {
+                const pos = p.position;
+                let edgeColor = '#616161';
+                if (pos !== null) {
+                    edgeColor = '#d50000';
+                    nodesWithPos[p.crypto_id_0] = true;
+                    nodesWithPos[p.crypto_id_1] = true;
+                }
+                return {
+                    id: p.id,
+                    from: p.crypto_id_0,
+                    to: p.crypto_id_1,
+                    color: edgeColor,
+                    // show position
+                };
+            });
+
             setGraphMap((_prev) => {
                 return {
                     nodes: mapData.data.crypto.map((c) => ({
                         id: c.id,
                         label: c.crypto,
-                        color: '#e04141',
+                        color: nodesWithPos[c.id] ? '#d50000' : '#bdbdbd',
+                        // ask jason how to define the color
                     })),
-                    edges: mapData.data.exchangepair.map((p) => ({
-                        from: p.crypto_id_0,
-                        to: p.crypto_id_1,
-                    })),
+                    edges: edges,
                 };
             });
         };
