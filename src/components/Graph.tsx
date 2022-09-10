@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import InnerGraph from './InnerGraph';
 import axios from 'axios';
 
 import { Map, GraphMap } from '../types/types';
+import InnerGraphNew from './InnerGraphNew';
 
 const options = {
     layout: {
@@ -61,7 +61,7 @@ function Graph(props: { selected: number }) {
         <>
             {graphMap && (
                 <div>
-                    <InnerGraph
+                    <InnerGraphNew
                         graph={graphMap}
                         options={options}
                         events={events}

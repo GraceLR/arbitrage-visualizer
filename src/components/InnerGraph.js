@@ -121,15 +121,15 @@ class InnerGraph extends Component {
     }
 
     patchEdges({ edgesRemoved, edgesAdded, edgesChanged }) {
-        this.edges.remove(edgesRemoved);
+        // this.edges.remove(edgesRemoved);
         this.edges.add(edgesAdded);
-        this.edges.update(edgesChanged);
+        // this.edges.update(edgesChanged);
     }
 
     patchNodes({ nodesRemoved, nodesAdded, nodesChanged }) {
-        this.nodes.remove(nodesRemoved);
+        // this.nodes.remove(nodesRemoved);
         this.nodes.add(nodesAdded);
-        this.nodes.update(nodesChanged);
+        // this.nodes.update(nodesChanged);
     }
 
     updateGraph() {
@@ -210,3 +210,5 @@ InnerGraph.propTypes = {
 };
 
 export default InnerGraph;
+
+// go the error point, see which phase, which function has problem( side effects? not indempotent? )
