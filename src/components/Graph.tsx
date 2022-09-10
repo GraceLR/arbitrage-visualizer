@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import NetworkGraph from 'react-graph-vis';
+import InnerGraph from './InnerGraph';
 import axios from 'axios';
 
 import { Map, GraphMap } from '../types/types';
@@ -61,7 +61,7 @@ function Graph(props: { selected: number }) {
         <>
             {graphMap && (
                 <div>
-                    <NetworkGraph
+                    <InnerGraph
                         graph={graphMap}
                         options={options}
                         events={events}

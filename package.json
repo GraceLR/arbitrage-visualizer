@@ -1,60 +1,65 @@
 {
-  "name": "arb-bot",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@emotion/react": "^11.10.4",
-    "@emotion/styled": "^11.10.4",
-    "@mui/material": "^5.10.3",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.2.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.1",
-    "@types/node": "^16.11.36",
-    "@types/react-dom": "^18.0.4",
-    "@types/react-router-dom": "^5.3.3",
-    "axios": "^0.24.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-graph-vis": "^1.0.7",
-    "react-router-dom": "^6.3.0",
-    "react-scripts": "^5.0.1",
-    "typescript": "^4.6.4",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "prettier": {
-    "trailingComma": "es5",
-    "tabWidth": 4,
-    "semi": true,
-    "singleQuote": true
-  },
-  "proxy": "http://localhost:8080",
-  "devDependencies": {
-    "@types/react": "^18.0.18",
-    "@types/vis": "^4.21.24"
-  }
+    "name": "arb-bot",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@emotion/react": "^11.10.4",
+        "@emotion/styled": "^11.10.4",
+        "@mui/material": "^5.10.3",
+        "axios": "^0.24.0",
+        "react": "^18.1.0",
+        "react-dom": "^18.1.0",
+        "react-graph-vis": "^1.0.7",
+        "react-router-dom": "^6.3.0",
+        "react-scripts": "^5.0.1",
+        "typescript": "^4.6.4",
+        "web-vitals": "^2.1.4",
+        "lodash": "^4.17.15",
+        "prop-types": "^15.5.10",
+        "uuid": "^7.0.0 || ^8.0.0",
+        "vis-data": "^7.1.2",
+        "vis-network": "^9.0.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": true,
+        "singleQuote": true
+    },
+    "proxy": "http://localhost:8080",
+    "devDependencies": {
+        "@types/react": "^18.0.18",
+        "@types/vis": "^4.21.24",
+        "@testing-library/jest-dom": "^5.16.4",
+        "@testing-library/react": "^13.2.0",
+        "@testing-library/user-event": "^13.5.0",
+        "@types/jest": "^27.5.1",
+        "@types/node": "^16.11.36",
+        "@types/react-dom": "^18.0.4",
+        "@types/react-router-dom": "^5.3.3"
+    }
 }
