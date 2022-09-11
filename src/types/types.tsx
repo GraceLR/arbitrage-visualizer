@@ -34,6 +34,7 @@ export interface Map {
     crypto: Crypto[];
 }
 export interface GraphMap {
-    nodes: { id: number; label: string; color: string }[];
+    counter: number;
+    nodes: { id: number; label: string; color: string; x?: any; y?: any }[];
     edges: { from: number; to: number }[];
 }

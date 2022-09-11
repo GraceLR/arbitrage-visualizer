@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { DataSet } from 'vis-data';
-import { Network } from 'vis-network';
+import { Network, NetworkEvents } from 'vis-network';
 import defaultsDeep from 'lodash/fp/defaultsDeep';
 
 function InnerGraphNew(props: any) {
     const container = React.useRef<HTMLDivElement>(null);
 
-    // Add events in from old way
+    // add double click create node event
     // Build a test case to compare performance
     // Optimize this
 
@@ -36,8 +36,9 @@ function InnerGraphNew(props: any) {
 
         // merge user provied options with our default ones
         const options = defaultsDeep(defaultOptions, props.options);
+        const events = props.events || {};
 
-        new Network(
+        const netWork = new Network(
             container.current,
             {
                 ...props.graph,
@@ -46,6 +47,9 @@ function InnerGraphNew(props: any) {
             },
             options
         );
+        for (const eventName of Object.keys(events)) {
+            netWork.on(eventName as NetworkEvents, events[eventName]);
+        }
     }
 
     const style = { width: '100%', height: '100%', ...props.style };
