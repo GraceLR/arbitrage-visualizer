@@ -20,18 +20,31 @@ function Graph(props: { selected: number }) {
         nodes: [],
         edges: [],
     });
+    const [selectedNode, setSelectedNode] = useState<number | undefined>(
+        undefined
+    );
     const events = {
-        select: (selected: any) => {
-            console.log(selected);
+        click: (properties: any) => {
+            if (properties.event.srcEvent.ctrlKey) {
+                createNode(
+                    properties.pointer.canvas.x,
+                    properties.pointer.canvas.y,
+                    selectedNode
+                );
+            }
         },
-        doubleClick: ({ pointer: { canvas } }: any) => {
-            createNode(canvas.x, canvas.y);
+        select: (selected: any) => {
+            setSelectedNode((_prev) => selected.nodes[0]);
         },
     };
-    const createNode = (x: number, y: number) => {
+    const createNode = (x: number, y: number, nodeId: number | undefined) => {
+        if (nodeId === undefined) {
+            alert('Please select a node.');
+            return;
+        }
         setGraphMap(({ counter, nodes, edges }) => {
             const id = counter - 1;
-            const from = props.selected;
+            const from = nodeId;
 
             const color = '#bdbdbd';
             const node = { id, label: `${id}`, color, x, y };
