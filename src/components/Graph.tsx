@@ -13,6 +13,20 @@ const options = {
     },
 };
 
+function useStateRef<T>(
+    initialValue: T | (() => T)
+): [T, React.Dispatch<React.SetStateAction<T>>, React.MutableRefObject<T>] {
+    const [value, setValue] = React.useState(initialValue);
+
+    const ref = React.useRef(value);
+
+    React.useEffect(() => {
+        ref.current = value;
+    }, [value]);
+
+    return [value, setValue, ref];
+}
+
 function Graph(props: { selected: number }) {
     // const [map, setMap] = useState<Map>();
     const [graphMap, setGraphMap] = useState<GraphMap>({
@@ -20,21 +34,23 @@ function Graph(props: { selected: number }) {
         nodes: [],
         edges: [],
     });
-    const [selectedNode, setSelectedNode] = useState<number | undefined>(
-        undefined
-    );
+    const [selectedNode, setSelectedNode, ref] = useStateRef<
+        number | undefined
+    >(undefined);
     const events = {
         click: (properties: any) => {
             if (properties.event.srcEvent.ctrlKey) {
                 createNode(
                     properties.pointer.canvas.x,
                     properties.pointer.canvas.y,
-                    selectedNode
+                    ref.current
                 );
             }
         },
         select: (selected: any) => {
-            setSelectedNode((_prev) => selected.nodes[0]);
+            if (!selected.event.srcEvent.ctrlKey) {
+                setSelectedNode((_prev) => selected.nodes[0]);
+            }
         },
     };
     const createNode = (x: number, y: number, nodeId: number | undefined) => {
