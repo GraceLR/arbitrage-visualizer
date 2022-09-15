@@ -41,7 +41,7 @@ function InnerGraphNew(props: any) {
     const container = React.useRef<HTMLDivElement>(null);
     const [nodes] = useState(new DataSet());
     const [edges] = useState(new DataSet());
-    // const [options] = useState();
+    const [netWork, setNetWork] = useState<any>(undefined);
 
     // add double click create node event
     // Build a test case to compare performance
@@ -52,6 +52,15 @@ function InnerGraphNew(props: any) {
     // in the array in the dataset not the same value
 
     if (container.current) {
+        if (netWork) {
+            // netWork.off();
+            const events = props.events || {};
+            for (const eventName of Object.keys(events)) {
+                netWork.off(eventName as NetworkEvents);
+                netWork.on(eventName as NetworkEvents, events[eventName]);
+            }
+        }
+
         let nodesChange = !isEqual(nodes.get(), props.graph.nodes);
         if (nodesChange) {
             const idIsEqual = (n1: any, n2: any) => n1.id === n2.id;
@@ -109,7 +118,6 @@ function InnerGraphNew(props: any) {
 
             // merge user provied options with our default ones
             const options = defaultsDeep(defaultOptions, props.options);
-            const events = props.events || {};
             const netWork = new Network(
                 container.current,
                 {
@@ -119,9 +127,7 @@ function InnerGraphNew(props: any) {
                 },
                 options
             );
-            for (const eventName of Object.keys(events)) {
-                netWork.on(eventName as NetworkEvents, events[eventName]);
-            }
+            setNetWork((_prev: any) => netWork);
         }
     }, [container.current]);
 

@@ -13,19 +13,19 @@ const options = {
     },
 };
 
-function useStateRef<T>(
-    initialValue: T | (() => T)
-): [T, React.Dispatch<React.SetStateAction<T>>, React.MutableRefObject<T>] {
-    const [value, setValue] = React.useState(initialValue);
+// function useStateRef<T>(
+//     initialValue: T | (() => T)
+// ): [T, React.Dispatch<React.SetStateAction<T>>, React.MutableRefObject<T>] {
+//     const [value, setValue] = React.useState(initialValue);
 
-    const ref = React.useRef(value);
+//     const ref = React.useRef(value);
 
-    React.useEffect(() => {
-        ref.current = value;
-    }, [value]);
+//     React.useEffect(() => {
+//         ref.current = value;
+//     }, [value]);
 
-    return [value, setValue, ref];
-}
+//     return [value, setValue, ref];
+// }
 
 function Graph(props: { selected: number }) {
     // const [map, setMap] = useState<Map>();
@@ -34,22 +34,23 @@ function Graph(props: { selected: number }) {
         nodes: [],
         edges: [],
     });
-    const [selectedNode, setSelectedNode, ref] = useStateRef<
-        number | undefined
-    >(undefined);
+    // const [selectedNode, setSelectedNode, ref] = useStateRef<
+    //     number | undefined
+    // >(undefined);
+    const [selectedNode, setSelectedNode] = useState(undefined);
     const events = {
         click: (properties: any) => {
             if (properties.event.srcEvent.ctrlKey) {
                 createNode(
                     properties.pointer.canvas.x,
                     properties.pointer.canvas.y,
-                    ref.current
+                    selectedNode
                 );
             }
         },
         select: (selected: any) => {
             if (!selected.event.srcEvent.ctrlKey) {
-                setSelectedNode((_prev) => selected.nodes[0]);
+                setSelectedNode((_prev: any) => selected.nodes[0]);
             }
         },
     };
@@ -96,7 +97,7 @@ function Graph(props: { selected: number }) {
             });
 
             const graph = {
-                counter: mapData.data.crypto.length,
+                counter: 0,
                 nodes: mapData.data.crypto.map((c) => ({
                     id: c.id,
                     label: c.crypto,
