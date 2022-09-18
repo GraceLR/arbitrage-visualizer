@@ -43,14 +43,6 @@ function InnerGraphNew(props: any) {
     const [edges] = useState(new DataSet());
     const [netWork, setNetWork] = useState<any>(undefined);
 
-    // add double click create node event
-    // Build a test case to compare performance
-    // Optimize this
-
-    // in the array not in dataset
-    // in the dataset not in array
-    // in the array in the dataset not the same value
-
     if (container.current) {
         if (netWork) {
             // netWork.off();
