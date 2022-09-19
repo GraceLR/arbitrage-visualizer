@@ -1,0 +1,8 @@
+{
+    "network_name": "Can be a single network -> 'harmony' or a list -> ['harmony', 'cronos']",
+    "password": "leave as an empty string to run in readonly mode",
+    "log_level": "INFO",
+    "log_to_file": "False",
+    "regenerate_graphs": "True if you want to refetch and rebuild the graphs. False otherwise.",
+    "check_only_owned_crypos": "True to run faster, false to check for unowned arbs"
+}

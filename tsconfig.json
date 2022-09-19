@@ -13,9 +13,11 @@
         "moduleResolution": "node",
         "resolveJsonModule": true,
         "isolatedModules": false,
-        "outDir": "dist",
-        "rootDir": "source",
         "sourceMap": true,
+        "outDir": "./dist",
+        "removeComments": true,
+        "noImplicitAny": false,
+        "noImplicitThis": false
     },
     "ts-node": {
         // these options are overrides used only by ts-node
@@ -24,5 +26,6 @@
             "module": "commonjs"
         }
     },
-    "include": ["source"]
+    "include": ["./source"],
+    "exclude": ["./node_modules"]
 }

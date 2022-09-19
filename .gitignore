@@ -2,3 +2,6 @@
 /dist
 *.js
 *.js.map
+*.log
+/source/graph/config.json
+/source/config.json

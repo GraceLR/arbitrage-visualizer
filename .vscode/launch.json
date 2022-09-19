@@ -5,22 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "node",
+            "type": "node-terminal",
             "request": "launch",
             "name": "Launch Program",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "runtimeArgs": ["-r", "ts-node/register"],
-            "program": "${workspaceFolder}\\source\\server.ts",
-            "outFiles": [
-                "${workspaceFolder}/dist/**/*.js",
-                "!**/node_modules/**"
-            ],
-            "preLaunchTask": "npm: debug",
-            "sourceMaps": true,
-            "smartStep": true,
-            "internalConsoleOptions": "openOnSessionStart",
+            "command": "npm run debug",
+            "cwd": "${workspaceFolder}"
         }
     ]
 }

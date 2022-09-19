@@ -1,0 +1,66 @@
+{
+    "exchange_pairs": [
+        {
+            "exchange": "solidly",
+            "crypto0": "0x41adac6c1ff52c5e27568f27998d747f7b69795b",
+            "crypto1": "0x888ef71766ca594ded1f0fa3ae64ed2941740a20",
+            "crypto0_name": "SOLIDsex",
+            "crypto1_name": "SOLID",
+            "pair_address": "0x62E2819Dd417F3b430B6fa5Fd34a49A377A02ac8",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x888ef71766ca594ded1f0fa3ae64ed2941740a20",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "SOLID",
+            "pair_address": "0xe4bc39fdD4618a76f6472079C329bdfa820afA75",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x41adac6c1ff52c5e27568f27998d747f7b69795b",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "SOLIDsex",
+            "pair_address": "0xa66901D1965F5410dEeB4d0Bb43f7c1B628Cb20b",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto0_name": "USDC",
+            "crypto1_name": "WFTM",
+            "pair_address": "0xe7E90f5a767406efF87Fdad7EB07ef407922EC1D",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        }
+    ],
+    "cryptos": [
+        {
+            "name": "WFTM",
+            "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "precision": 18
+        },
+        {
+            "name": "SOLID",
+            "address": "0x888ef71766ca594ded1f0fa3ae64ed2941740a20",
+            "precision": 18
+        },
+        {
+            "name": "SOLIDsex",
+            "address": "0x41adac6c1ff52c5e27568f27998d747f7b69795b",
+            "precision": 18
+        },
+        {
+            "name": "USDC",
+            "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "precision": 6
+        }
+    ]
+}

@@ -1,14 +1,13 @@
 import express, { Express } from "express";
+import ws from "ws"
 import morgan from "morgan";
 import db_operations from "./db/db_operations";
-import { runBot } from "./graph_generator/bot";
+import { runBot } from "./graph/bot";
 
 // db_operations.db_connect();
 
 // Web server config
-var HOST = process.env.HOST || 'localhost';
 const PORT = process.env.PORT || 8080;
-const CORS_PORT = process.env.CORS_PORT || 8081;
 /** Port */
 const router: Express = express();
 /** Logging */
@@ -22,21 +21,28 @@ const api = require("./routes/api");
 
 router.use("/api", api());
 
-runBot()
+const wsServer = new ws.Server({ noServer: true });
+
+const clients = {};
+let id = 0;
+
+wsServer.on('connection', socket => {
+  //socket.on('message', message => console.log(message))
+  clients[id++] = socket;
+})
+
+runBot(clients)
 
 // router.get("/", (req, res) => {
 //   console.log('router.get("/") successfull####');
 // });
 
-var cors_proxy = require('cors-anywhere');
-cors_proxy.createServer({
-    originWhitelist: [], // Allow all origins
-    requireHeader: ['origin', 'x-requested-with'],
-    removeHeaders: ['cookie', 'cookie2']
-}).listen(CORS_PORT, HOST, function() {
-    console.log('Running CORS Anywhere on ' + HOST + ':' + CORS_PORT);
-});
-
-router.listen(PORT, () => {
+const server = router.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });
+
+server.on('upgrade', (request, socket, head) => {
+  wsServer.handleUpgrade(request, socket, head, socket => {
+    wsServer.emit('connection', socket, request);
+  });
+})

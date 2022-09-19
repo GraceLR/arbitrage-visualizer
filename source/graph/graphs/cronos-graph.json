@@ -1,0 +1,446 @@
+{
+    "cryptos": [
+        {
+            "address": "0x83b2AC8642aE46FC2823Bc959fFEB3c1742c48B5",
+            "name": "DARK",
+            "precision": "18"
+        },
+        {
+            "address": "0x49ab7ca4D2Cf6777c8C56C5E9Edb7D1218AE1299",
+            "name": "BURROW",
+            "precision": "18"
+        },
+        {
+            "address": "0x97749c9B61F878a880DfE312d2594AE07AEd7656",
+            "name": "MMF",
+            "precision": "18"
+        },
+        {
+            "address": "0xF2001B145b43032AAF5Ee2884e456CCd805F677D",
+            "name": "DAI",
+            "precision": "18"
+        },
+        {
+            "address": "0xf8b9facB7B4410F5703Eb29093302f2933D6E1Aa",
+            "name": "MSHARE",
+            "precision": "18"
+        },
+        {
+            "address": "0x95aEaF383E2e86A47c11CffdE1F7944eCB2C38C2",
+            "name": "MUSD",
+            "precision": "18"
+        },
+        {
+            "address": "0x654bAc3eC77d6dB497892478f854cF6e8245DcA9",
+            "name": "SVN",
+            "precision": "18"
+        },
+        {
+            "address": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+            "name": "WCRO",
+            "precision": "18"
+        },
+        {
+            "address": "0xe44Fd7fCb2b1581822D0c862B68222998a0c299a",
+            "name": "WETH",
+            "precision": "18"
+        },
+        {
+            "address": "0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03",
+            "name": "VVS",
+            "precision": "18"
+        },
+        {
+            "address": "0x66e428c3f67a68878562e79A0234c1F83c208770",
+            "name": "USDT",
+            "precision": "6"
+        },
+        {
+            "address": "0x062E66477Faf219F25D27dCED647BF57C3107d52",
+            "name": "WBTC",
+            "precision": "8"
+        },
+        {
+            "address": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+            "name": "USDC",
+            "precision": "6"
+        },
+        {
+            "address": "0x9D3BBb0e988D9Fb2d55d07Fe471Be2266AD9c81c",
+            "name": "SKY",
+            "precision": "18"
+        },
+        {
+            "address": "0xDD73dEa10ABC2Bff99c60882EC5b2B81Bb1Dc5B2",
+            "name": "TONIC",
+            "precision": "18"
+        },
+        {
+            "address": "0x00D7699b71290094CcB1a5884cD835bD65a78c17",
+            "name": "VERSA",
+            "precision": "18"
+        }
+    ],
+    "exchange_pairs": [
+        {
+            "crypto0": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+            "crypto0_name": "WCRO",
+            "crypto1": "0x97749c9B61F878a880DfE312d2594AE07AEd7656",
+            "crypto1_name": "MMF",
+            "exchange": "mmf",
+            "pair_address": "0xbA452A1c0875D33a440259B1ea4DcA8f5d86D9Ae",
+            "router_address": "0x145677FC4d9b8F19B5D56d1820c48e0443049a30"
+        },
+        {
+            "crypto0": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+            "crypto0_name": "WCRO",
+            "crypto1": "0xe44Fd7fCb2b1581822D0c862B68222998a0c299a",
+            "crypto1_name": "WETH",
+            "exchange": "mmf",
+            "pair_address": "0x019d9479606FBDd4aCB16488e0aAE49E4684322b",
+            "router_address": "0x145677FC4d9b8F19B5D56d1820c48e0443049a30"
+        },
+        {
+            "crypto0": "0x062E66477Faf219F25D27dCED647BF57C3107d52",
+            "crypto0_name": "WBTC",
+            "crypto1": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+            "crypto1_name": "WCRO",
+            "exchange": "mmf",
+            "pair_address": "0x5383202D48C24aAA19873366168f2Ed558a00ff0",
+            "router_address": "0x145677FC4d9b8F19B5D56d1820c48e0443049a30"
+        },
+        {
+            "crypto0": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+            "crypto0_name": "WCRO",
+            "crypto1": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+            "crypto1_name": "USDC",
+            "exchange": "mmf",
+            "pair_address": "0xa68466208F1A3Eb21650320D2520ee8eBA5ba623",
+            "router_address": "0x145677FC4d9b8F19B5D56d1820c48e0443049a30"
+        },
+        {
+            "crypto0": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+            "crypto0_name": "WCRO",
+            "crypto1": "0x66e428c3f67a68878562e79A0234c1F83c208770",
+            "crypto1_name": "USDT",
+            "exchange": "mmf",
+            "pair_address": "0xEB28c926A7Afc75fcC8d6671Acd4c4A298b38419",
+            "router_address": "0x145677FC4d9b8F19B5D56d1820c48e0443049a30"
+        },
+        {
+            "crypto0": "0x66e428c3f67a68878562e79A0234c1F83c208770",
+            "crypto0_name": "USDT",
+            "crypto1": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+            "crypto1_name": "USDC",
+            "exchange": "mmf",
+            "pair_address": "0x6F186E4BEd830D13DcE638e40bA27Fd6d91BAd0B",
+            "router_address": "0x145677FC4d9b8F19B5D56d1820c48e0443049a30"
+        },
+        {
+            "crypto0": "0x66e428c3f67a68878562e79A0234c1F83c208770",
+            "crypto0_name": "USDT",
+            "crypto1": "0x97749c9B61F878a880DfE312d2594AE07AEd7656",
+            "crypto1_name": "MMF",
+            "exchange": "mmf",
+            "pair_address": "0x5801d37E04ab1f266c35A277E06C9D3afA1c9cA2",
+            "router_address": "0x145677FC4d9b8F19B5D56d1820c48e0443049a30"
+        },
+        {
+            "crypto0": "0x97749c9B61F878a880DfE312d2594AE07AEd7656",
+            "crypto0_name": "MMF",
+            "crypto1": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+            "crypto1_name": "USDC",
+            "exchange": "mmf",
+            "pair_address": "0x722f19bd9A1E5bA97b3020c6028c279d27E4293C",
+            "router_address": "0x145677FC4d9b8F19B5D56d1820c48e0443049a30"
+        },
+        {
+            "crypto0": "0x062E66477Faf219F25D27dCED647BF57C3107d52",
+            "crypto0_name": "WBTC",
+            "crypto1": "0xe44Fd7fCb2b1581822D0c862B68222998a0c299a",
+            "crypto1_name": "WETH",
+            "exchange": "mmf",
+            "pair_address": "0x0101112C7aDdb2E8197922e9cFa17cbAA935ECCc",
+            "router_address": "0x145677FC4d9b8F19B5D56d1820c48e0443049a30"
+        },
+        {
+            "crypto0": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+            "crypto0_name": "USDC",
+            "crypto1": "0xF2001B145b43032AAF5Ee2884e456CCd805F677D",
+            "crypto1_name": "DAI",
+            "exchange": "mmf",
+            "pair_address": "0x787A47b0596fa8F7D6666F3C59696b3c57bB612b",
+            "router_address": "0x145677FC4d9b8F19B5D56d1820c48e0443049a30"
+        },
+        {
+            "crypto0": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+            "crypto0_name": "WCRO",
+            "crypto1": "0x83b2AC8642aE46FC2823Bc959fFEB3c1742c48B5",
+            "crypto1_name": "DARK",
+            "exchange": "mmf",
+            "pair_address": "0xA4AA24B8e855052071Df60E174219e6c8FEe45a3",
+            "router_address": "0x145677FC4d9b8F19B5D56d1820c48e0443049a30"
+        },
+        {
+            "crypto0": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+            "crypto0_name": "WCRO",
+            "crypto1": "0x9D3BBb0e988D9Fb2d55d07Fe471Be2266AD9c81c",
+            "crypto1_name": "SKY",
+            "exchange": "mmf",
+            "pair_address": "0xaA0845EE17e4f1D4F3A8c22cB1e8102baCf56a77",
+            "router_address": "0x145677FC4d9b8F19B5D56d1820c48e0443049a30"
+        },
+        {
+            "crypto0": "0x654bAc3eC77d6dB497892478f854cF6e8245DcA9",
+            "crypto0_name": "SVN",
+            "crypto1": "0x97749c9B61F878a880DfE312d2594AE07AEd7656",
+            "crypto1_name": "MMF",
+            "exchange": "mmf",
+            "pair_address": "0xB6E1705BfAFcf1efEE83C135C0F0210653bAB8F0",
+            "router_address": "0x145677FC4d9b8F19B5D56d1820c48e0443049a30"
+        },
+        {
+            "crypto0": "0x97749c9B61F878a880DfE312d2594AE07AEd7656",
+            "crypto0_name": "MMF",
+            "crypto1": "0xf8b9facB7B4410F5703Eb29093302f2933D6E1Aa",
+            "crypto1_name": "MSHARE",
+            "exchange": "mmf",
+            "pair_address": "0xc924da29d37f3b8C62c4c3e4e6958bF2b5ebF677",
+            "router_address": "0x145677FC4d9b8F19B5D56d1820c48e0443049a30"
+        },
+        {
+            "crypto0": "0x654bAc3eC77d6dB497892478f854cF6e8245DcA9",
+            "crypto0_name": "SVN",
+            "crypto1": "0xf8b9facB7B4410F5703Eb29093302f2933D6E1Aa",
+            "crypto1_name": "MSHARE",
+            "exchange": "mmf",
+            "pair_address": "0x7982E9622706040e075Eb8bBe40dCA6a49296aDE",
+            "router_address": "0x145677FC4d9b8F19B5D56d1820c48e0443049a30"
+        },
+        {
+            "crypto0": "0x95aEaF383E2e86A47c11CffdE1F7944eCB2C38C2",
+            "crypto0_name": "MUSD",
+            "crypto1": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+            "crypto1_name": "USDC",
+            "exchange": "mmf",
+            "pair_address": "0x0B083d50417FEC1390C2C07Eba85f31D5EeFC350",
+            "router_address": "0x145677FC4d9b8F19B5D56d1820c48e0443049a30"
+        },
+        {
+            "crypto0": "0x95aEaF383E2e86A47c11CffdE1F7944eCB2C38C2",
+            "crypto0_name": "MUSD",
+            "crypto1": "0x97749c9B61F878a880DfE312d2594AE07AEd7656",
+            "crypto1_name": "MMF",
+            "exchange": "mmf",
+            "pair_address": "0xeF2dC4849bDCC120acB7274cd5A557B5145DA149",
+            "router_address": "0x145677FC4d9b8F19B5D56d1820c48e0443049a30"
+        },
+        {
+            "crypto0": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+            "crypto0_name": "WCRO",
+            "crypto1": "0x95aEaF383E2e86A47c11CffdE1F7944eCB2C38C2",
+            "crypto1_name": "MUSD",
+            "exchange": "mmf",
+            "pair_address": "0x28F9Eb94c0E954ceE2E0407B084c760BaBf9F39c",
+            "router_address": "0x145677FC4d9b8F19B5D56d1820c48e0443049a30"
+        },
+        {
+            "crypto0": "0x49ab7ca4D2Cf6777c8C56C5E9Edb7D1218AE1299",
+            "crypto0_name": "BURROW",
+            "crypto1": "0x97749c9B61F878a880DfE312d2594AE07AEd7656",
+            "crypto1_name": "MMF",
+            "exchange": "mmf",
+            "pair_address": "0x17052528080103702121aA278dc9049D13A69857",
+            "router_address": "0x145677FC4d9b8F19B5D56d1820c48e0443049a30"
+        },
+        {
+            "crypto0": "0x49ab7ca4D2Cf6777c8C56C5E9Edb7D1218AE1299",
+            "crypto0_name": "BURROW",
+            "crypto1": "0x654bAc3eC77d6dB497892478f854cF6e8245DcA9",
+            "crypto1_name": "SVN",
+            "exchange": "mmf",
+            "pair_address": "0xB359c6AE7F5969079048259E0C8A57267238cA9D",
+            "router_address": "0x145677FC4d9b8F19B5D56d1820c48e0443049a30"
+        },
+        {
+            "crypto0": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+            "crypto0_name": "WCRO",
+            "crypto1": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+            "crypto1_name": "USDC",
+            "exchange": "vvs",
+            "pair_address": "0xe61Db569E231B3f5530168Aa2C9D50246525b6d6",
+            "router_address": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae"
+        },
+        {
+            "crypto0": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+            "crypto0_name": "WCRO",
+            "crypto1": "0xe44Fd7fCb2b1581822D0c862B68222998a0c299a",
+            "crypto1_name": "WETH",
+            "exchange": "vvs",
+            "pair_address": "0xA111C17f8B8303280d3EB01BBcd61000AA7F39F9",
+            "router_address": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae"
+        },
+        {
+            "crypto0": "0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03",
+            "crypto0_name": "VVS",
+            "crypto1": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+            "crypto1_name": "WCRO",
+            "exchange": "vvs",
+            "pair_address": "0xbf62c67eA509E86F07c8c69d0286C0636C50270b",
+            "router_address": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae"
+        },
+        {
+            "crypto0": "0x062E66477Faf219F25D27dCED647BF57C3107d52",
+            "crypto0_name": "WBTC",
+            "crypto1": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+            "crypto1_name": "WCRO",
+            "exchange": "vvs",
+            "pair_address": "0x8F09fFf247B8fDB80461E5Cf5E82dD1aE2EBd6d7",
+            "router_address": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae"
+        },
+        {
+            "crypto0": "0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03",
+            "crypto0_name": "VVS",
+            "crypto1": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+            "crypto1_name": "USDC",
+            "exchange": "vvs",
+            "pair_address": "0x814920D1b8007207db6cB5a2dD92bF0b082BDBa1",
+            "router_address": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae"
+        },
+        {
+            "crypto0": "0x66e428c3f67a68878562e79A0234c1F83c208770",
+            "crypto0_name": "USDT",
+            "crypto1": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+            "crypto1_name": "USDC",
+            "exchange": "vvs",
+            "pair_address": "0x39cC0E14795A8e6e9D02A21091b81FE0d61D82f9",
+            "router_address": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae"
+        },
+        {
+            "crypto0": "0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03",
+            "crypto0_name": "VVS",
+            "crypto1": "0x66e428c3f67a68878562e79A0234c1F83c208770",
+            "crypto1_name": "USDT",
+            "exchange": "vvs",
+            "pair_address": "0x280aCAD550B2d3Ba63C8cbff51b503Ea41a1c61B",
+            "router_address": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae"
+        },
+        {
+            "crypto0": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+            "crypto0_name": "WCRO",
+            "crypto1": "0x66e428c3f67a68878562e79A0234c1F83c208770",
+            "crypto1_name": "USDT",
+            "exchange": "vvs",
+            "pair_address": "0x3d2180DB9E1B909f35C398BC39EF36108C0FC8c3",
+            "router_address": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae"
+        },
+        {
+            "crypto0": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+            "crypto0_name": "WCRO",
+            "crypto1": "0xF2001B145b43032AAF5Ee2884e456CCd805F677D",
+            "crypto1_name": "DAI",
+            "exchange": "vvs",
+            "pair_address": "0x3Eb9FF92e19b73235A393000C176c8bb150F1B20",
+            "router_address": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae"
+        },
+        {
+            "crypto0": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+            "crypto0_name": "USDC",
+            "crypto1": "0xDD73dEa10ABC2Bff99c60882EC5b2B81Bb1Dc5B2",
+            "crypto1_name": "TONIC",
+            "exchange": "vvs",
+            "pair_address": "0x2f12D47Fe49B907d7a5Df8159C1CE665187F15c4",
+            "router_address": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae"
+        },
+        {
+            "crypto0": "0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03",
+            "crypto0_name": "VVS",
+            "crypto1": "0xDD73dEa10ABC2Bff99c60882EC5b2B81Bb1Dc5B2",
+            "crypto1_name": "TONIC",
+            "exchange": "vvs",
+            "pair_address": "0xA922530960A1F94828A7E132EC1BA95717ED1eab",
+            "router_address": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae"
+        },
+        {
+            "crypto0": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+            "crypto0_name": "WCRO",
+            "crypto1": "0xDD73dEa10ABC2Bff99c60882EC5b2B81Bb1Dc5B2",
+            "crypto1_name": "TONIC",
+            "exchange": "vvs",
+            "pair_address": "0x4B377121d968Bf7a62D51B96523d59506e7c2BF0",
+            "router_address": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae"
+        },
+        {
+            "crypto0": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+            "crypto0_name": "WCRO",
+            "crypto1": "0x83b2AC8642aE46FC2823Bc959fFEB3c1742c48B5",
+            "crypto1_name": "DARK",
+            "exchange": "vvs",
+            "pair_address": "0x9284134f3D268CDf0Ef2305c9F06767E913A7CE6",
+            "router_address": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae"
+        },
+        {
+            "crypto0": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+            "crypto0_name": "WCRO",
+            "crypto1": "0x9D3BBb0e988D9Fb2d55d07Fe471Be2266AD9c81c",
+            "crypto1_name": "SKY",
+            "exchange": "vvs",
+            "pair_address": "0x542b3bA420581b69212F406e0643Da75fA109b79",
+            "router_address": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae"
+        },
+        {
+            "crypto0": "0x00D7699b71290094CcB1a5884cD835bD65a78c17",
+            "crypto0_name": "VERSA",
+            "crypto1": "0x2D03bECE6747ADC00E1a131BBA1469C15fD11e03",
+            "crypto1_name": "VVS",
+            "exchange": "vvs",
+            "pair_address": "0xD7F3d8035cd7BD5aD5E43Fa4E1d4DcA12e133FdD",
+            "router_address": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae"
+        },
+        {
+            "crypto0": "0x00D7699b71290094CcB1a5884cD835bD65a78c17",
+            "crypto0_name": "VERSA",
+            "crypto1": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+            "crypto1_name": "USDC",
+            "exchange": "vvs",
+            "pair_address": "0xfc0445f2063fa6def196B34C105F0E0A4834eC8f",
+            "router_address": "0x145863Eb42Cf62847A6Ca784e6416C1682b1b2Ae"
+        },
+        {
+            "crypto0": "0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23",
+            "crypto0_name": "WCRO",
+            "crypto1": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+            "crypto1_name": "USDC",
+            "exchange": "crona",
+            "pair_address": "0x0625A68D25d304aed698c806267a4e369e8Eb12a",
+            "router_address": "0xcd7d16fB918511BF7269eC4f48d61D79Fb26f918"
+        },
+        {
+            "crypto0": "0x66e428c3f67a68878562e79A0234c1F83c208770",
+            "crypto0_name": "USDT",
+            "crypto1": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+            "crypto1_name": "USDC",
+            "exchange": "crona",
+            "pair_address": "0x968fE4C06fdD503E278d89d5dFe29935A111476C",
+            "router_address": "0xcd7d16fB918511BF7269eC4f48d61D79Fb26f918"
+        },
+        {
+            "crypto0": "0x062E66477Faf219F25D27dCED647BF57C3107d52",
+            "crypto0_name": "WBTC",
+            "crypto1": "0xe44Fd7fCb2b1581822D0c862B68222998a0c299a",
+            "crypto1_name": "WETH",
+            "exchange": "crona",
+            "pair_address": "0x285a569EDD6210a0410883d2E29471A6B0c7790d",
+            "router_address": "0xcd7d16fB918511BF7269eC4f48d61D79Fb26f918"
+        },
+        {
+            "crypto0": "0x66e428c3f67a68878562e79A0234c1F83c208770",
+            "crypto0_name": "USDT",
+            "crypto1": "0xc21223249CA28397B4B6541dfFaEcC539BfF0c59",
+            "crypto1_name": "USDC",
+            "exchange": "crodex",
+            "pair_address": "0xaa9d281B761d8988Af83B4E2bF3fC8f5dB2E7aE5",
+            "router_address": "0xeC0A7a0C2439E8Cb67b992b12ecd020Ea943c7Be"
+        }
+    ]
+}
