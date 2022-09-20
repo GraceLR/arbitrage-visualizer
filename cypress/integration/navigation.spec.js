@@ -2,7 +2,7 @@ describe('Navigation', () => {
     it('should visit root', () => {
         cy.visit('/');
     });
-    // it("should select a node and edges", () => {
+    // it("should add a node", () => {
     //   cy.visit("/");
     //   cy.contains("[data-testid=day]", "Tuesday")
     //     .click()

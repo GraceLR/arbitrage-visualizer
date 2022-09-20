@@ -40,7 +40,7 @@ function Graph(props: { selected: number }) {
     const [selectedNode, setSelectedNode] = useState(undefined);
     const events = {
         click: (properties: any) => {
-            if (properties.event.srcEvent.ctrlKey) {
+            if (properties.event.srcEvent.shiftKey) {
                 createNode(
                     properties.pointer.canvas.x,
                     properties.pointer.canvas.y,
@@ -49,7 +49,7 @@ function Graph(props: { selected: number }) {
             }
         },
         select: (selected: any) => {
-            if (!selected.event.srcEvent.ctrlKey) {
+            if (!selected.event.srcEvent.shiftKey) {
                 setSelectedNode((_prev: any) => selected.nodes[0]);
             }
         },
