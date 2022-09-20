@@ -10,6 +10,7 @@ const options = {
     },
     edges: {
         color: '#000000',
+        length: '250',
     },
 };
 
@@ -65,7 +66,7 @@ function Graph(props: { selected: number }) {
 
             const color = '#bdbdbd';
             const node = { id, label: `${id}`, color, x, y };
-            const edge = { from, to: id };
+            const edge = { from, to: id, label: 'added' };
 
             return {
                 counter: id,
@@ -92,6 +93,10 @@ function Graph(props: { selected: number }) {
                     from: p.crypto_id_0,
                     to: p.crypto_id_1,
                     color: edgeColor,
+                    label:
+                        p.position !== null
+                            ? p.position + ' /' + p.price_tangent
+                            : p.price_tangent,
                     // show position
                 };
             });

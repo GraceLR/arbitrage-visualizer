@@ -12,7 +12,7 @@ export interface Exchangepair {
     crypto_id_0: number;
     crypto_id_1: number;
     exchange_name: string;
-    price_tangent: number;
+    price_tangent: string;
     inverse_price_tangent: number;
     is_dynamic: boolean;
     exchange_type: string;
