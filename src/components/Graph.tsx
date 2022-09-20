@@ -8,9 +8,13 @@ const options = {
     layout: {
         hierarchical: false,
     },
+    nodes: {
+        widthConstraint: { minimum: 100 },
+    },
     edges: {
         color: '#000000',
         length: '250',
+        smooth: { enabled: true, type: 'dynamic' },
     },
 };
 

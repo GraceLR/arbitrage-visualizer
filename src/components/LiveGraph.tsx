@@ -8,12 +8,16 @@ const options = {
     layout: {
         hierarchical: false,
     },
+    nodes: {
+        widthConstraint: { minimum: 100 },
+    },
     edges: {
         color: '#000000',
+        length: '250',
     },
 };
 
-function Graph(props: { liveGraph: any }) {
+function LiveGraph(props: { liveGraph: any }) {
     const edges = props.liveGraph.exchangepair.map((p: any) => {
         let edgeColor = '#616161';
 
@@ -21,6 +25,7 @@ function Graph(props: { liveGraph: any }) {
             from: p.crypto_id_0,
             to: p.crypto_id_1,
             color: edgeColor,
+            label: p.price_tangent,
         };
     });
 
@@ -46,4 +51,4 @@ function Graph(props: { liveGraph: any }) {
     );
 }
 
-export default Graph;
+export default LiveGraph;
