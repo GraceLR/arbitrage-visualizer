@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from 'react';
+import { w3cwebsocket } from 'websocket';
 import axios from 'axios';
-import Dropdown from './Dropdown';
+import { AppBar, Toolbar, Box, Paper, Typography } from '@mui/material';
+
 import Graph from './Graph';
 import { Arb } from '../types/types';
-import { w3cwebsocket } from 'websocket';
 import LiveGraph from './LiveGraph';
-import StatusDropdown from './StatusDropdown';
+import NavTop from './NavTop';
+import NavBottom from './NavBottom';
+const pages = ['Products', 'Pricing', 'Blog'];
 
 function Home() {
     const [statusSelected, setStatusSelected] = useState('static');
@@ -13,7 +16,6 @@ function Home() {
     const [selected, setSelected] = useState<number>(-1);
     const [ws, setWebSocket] = useState<w3cwebsocket | null>(null);
     const [liveGraph, setLiveGraph] = useState<any>(null);
-
     useEffect(() => {
         axios.get<Arb[]>('/api/arbs').then((all) => {
             const arbs = all.data;
@@ -34,13 +36,18 @@ function Home() {
             ws?.close();
         }
     }, [statusSelected]);
-    // setWebSocket(server);
-    // server.onmessage = (message) => {
-    //     setLiveGraph(JSON.parse(message.data as string));
-    // };
     return (
         <>
-            <StatusDropdown setStatusSelected={setStatusSelected} />
+            <AppBar position="sticky">
+                <NavTop />
+                <NavBottom
+                    arbs={arbs}
+                    setSelected={setSelected}
+                    statusSelected={statusSelected}
+                    setStatusSelected={setStatusSelected}
+                />
+            </AppBar>
+            {/* <StatusDropdown setStatusSelected={setStatusSelected} />
             {statusSelected === 'static' && arbs.length > 0 && (
                 <Dropdown arbs={arbs} setSelected={setSelected} />
             )}
@@ -49,7 +56,34 @@ function Home() {
             )}
             {statusSelected === 'live' && liveGraph && (
                 <LiveGraph liveGraph={liveGraph} />
-            )}
+            )} */}
+            <Box
+                sx={{
+                    display: 'flex',
+                    justifyContent: 'space-around',
+                    marginTop: '3vw',
+                }}
+            >
+                <Box
+                    sx={{
+                        backgroundColor: '#e0e0e0',
+                    }}
+                >
+                    {statusSelected === 'static' && selected > -1 && (
+                        <Graph selected={selected} />
+                    )}
+                    {statusSelected === 'live' && liveGraph && (
+                        <LiveGraph liveGraph={liveGraph} />
+                    )}
+                </Box>
+                <Box
+                    sx={{
+                        backgroundColor: '#e0e0e0',
+                    }}
+                >
+                    CONTENT
+                </Box>
+            </Box>
         </>
     );
 }
