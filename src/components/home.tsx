@@ -8,14 +8,16 @@ import { Arb } from '../types/types';
 import LiveGraph from './LiveGraph';
 import NavTop from './NavTop';
 import NavBottom from './NavBottom';
-const pages = ['Products', 'Pricing', 'Blog'];
+import Content from './content/Content';
 
 function Home() {
-    const [statusSelected, setStatusSelected] = useState('static');
+    const [ws, setWebSocket] = useState<w3cwebsocket | null>(null);
     const [arbs, setArbs] = useState<Arb[]>([]);
     const [selected, setSelected] = useState<number>(-1);
-    const [ws, setWebSocket] = useState<w3cwebsocket | null>(null);
+    const [selectedNode, setSelectedNode] = useState(undefined);
+    const [statusSelected, setStatusSelected] = useState('static');
     const [liveGraph, setLiveGraph] = useState<any>(null);
+    const [showModal, setShowModal] = useState(false);
     useEffect(() => {
         axios.get<Arb[]>('/api/arbs').then((all) => {
             const arbs = all.data;
@@ -35,7 +37,10 @@ function Home() {
         } else {
             ws?.close();
         }
-    }, [statusSelected]);
+        if (selectedNode !== undefined) {
+            setShowModal(true);
+        }
+    }, [statusSelected, selectedNode]);
     return (
         <>
             <AppBar position="sticky">
@@ -47,16 +52,6 @@ function Home() {
                     setStatusSelected={setStatusSelected}
                 />
             </AppBar>
-            {/* <StatusDropdown setStatusSelected={setStatusSelected} />
-            {statusSelected === 'static' && arbs.length > 0 && (
-                <Dropdown arbs={arbs} setSelected={setSelected} />
-            )}
-            {statusSelected === 'static' && selected > -1 && (
-                <Graph selected={selected} />
-            )}
-            {statusSelected === 'live' && liveGraph && (
-                <LiveGraph liveGraph={liveGraph} />
-            )} */}
             <Box
                 sx={{
                     display: 'flex',
@@ -70,19 +65,17 @@ function Home() {
                     }}
                 >
                     {statusSelected === 'static' && selected > -1 && (
-                        <Graph selected={selected} />
+                        <Graph
+                            selected={selected}
+                            selectedNode={selectedNode}
+                            setSelectedNode={setSelectedNode}
+                        />
                     )}
                     {statusSelected === 'live' && liveGraph && (
                         <LiveGraph liveGraph={liveGraph} />
                     )}
                 </Box>
-                <Box
-                    sx={{
-                        backgroundColor: '#e0e0e0',
-                    }}
-                >
-                    CONTENT
-                </Box>
+                <Content showModal={showModal} setShowModal={setShowModal} />
             </Box>
         </>
     );

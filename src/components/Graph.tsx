@@ -9,11 +9,11 @@ const options = {
         hierarchical: false,
     },
     nodes: {
-        widthConstraint: { minimum: 100 },
+        widthConstraint: { minimum: 50 },
     },
     edges: {
         color: '#000000',
-        length: '250',
+        length: '200',
         smooth: { enabled: true, type: 'dynamic' },
     },
 };
@@ -32,7 +32,11 @@ const options = {
 //     return [value, setValue, ref];
 // }
 
-function Graph(props: { selected: number }) {
+function Graph(props: {
+    selected: number;
+    selectedNode: any;
+    setSelectedNode: any;
+}) {
     // const [map, setMap] = useState<Map>();
     const [graphMap, setGraphMap] = useState<GraphMap>({
         counter: 0,
@@ -42,20 +46,19 @@ function Graph(props: { selected: number }) {
     // const [selectedNode, setSelectedNode, ref] = useStateRef<
     //     number | undefined
     // >(undefined);
-    const [selectedNode, setSelectedNode] = useState(undefined);
     const events = {
         click: (properties: any) => {
             if (properties.event.srcEvent.shiftKey) {
                 createNode(
                     properties.pointer.canvas.x,
                     properties.pointer.canvas.y,
-                    selectedNode
+                    props.selectedNode
                 );
             }
         },
         select: (selected: any) => {
             if (!selected.event.srcEvent.shiftKey) {
-                setSelectedNode((_prev: any) => selected.nodes[0]);
+                props.setSelectedNode((_prev: any) => selected.nodes[0]);
             }
         },
     };
