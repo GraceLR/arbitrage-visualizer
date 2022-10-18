@@ -34,7 +34,7 @@ const managers: {
 
 // export const
 
-export const runBot = async (clients) => {
+export const runBackwards = async (clients) => {
   //try {
   const network_name = "harmony"; // Config[ConfigKeys.NETWORK_NAME];
   const network = routerConfig[network_name];
@@ -64,5 +64,6 @@ export const runBot = async (clients) => {
     );
     arb_cycle_resolver.resolve_cycles();
     const results = arb_cycle_resolver.get_cost_sorted_solutions();
+    // if arb then write to db
   }
 };
