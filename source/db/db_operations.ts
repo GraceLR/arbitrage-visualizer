@@ -22,7 +22,12 @@ const db_export_arbs = async () => {
 
 const db_export_exchangepair = async (arbitrage_id: number) => {
   const cycle_data = await db.query(
-    `SELECT * FROM graph_exchangepair WHERE arbitrage_id = $1;`,
+    `SELECT id, arbitrage_id, crypto_id_0, crypto_id_1, exchange_name,
+    to_char(price_tangent::numeric, '9.20EEEE') as price_tangent,
+    inverse_price_tangent,
+    is_dynamic,
+    exchange_type,
+    position FROM graph_exchangepair WHERE arbitrage_id = $1;`,
     [arbitrage_id]
   );
   return cycle_data;

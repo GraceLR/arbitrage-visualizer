@@ -23,7 +23,7 @@ export class Abi {
 }
 
 function getFunctionSignature(name: string, inputs: ParamType[]): string {
-  const types = [];
+  const types: string[] = [];
   for (const input of inputs) {
     if (input.type === "tuple") {
       const tupleString = getFunctionSignature("", input.components);
