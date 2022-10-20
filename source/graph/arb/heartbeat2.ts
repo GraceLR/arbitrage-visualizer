@@ -122,7 +122,7 @@ export default class Heartbeat2 {
   };
 
   // Returns the block number associated with the refreshed data
-  __execute_beat__ = async () => {
+  __execute_beat__ = async (runOnBlockNumber?: string) => {
     try {
       let call_list: any[] = [];
 
@@ -133,7 +133,7 @@ export default class Heartbeat2 {
       }
 
       if (other_pairs.length > 0) {
-        const { blockNumber, results } = await run(call_list); // getting exchange rates
+        const { blockNumber, results } = await run(call_list, runOnBlockNumber); // getting exchange rates
 
         // We now pass the results back to the exchange pairs
         for (const pair of other_pairs) {
@@ -143,7 +143,8 @@ export default class Heartbeat2 {
 
       const blockNumber = await UniswapV2ExchangeManager.refresh_liquidity(
         // getting exchange rates for uniswap pairs
-        uniswap_pairs
+        uniswap_pairs,
+        runOnBlockNumber
       );
 
       if (blockNumber > this.current_block) {

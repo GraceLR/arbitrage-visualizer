@@ -41,9 +41,40 @@ const db_export_crypto = async (arbitrage_id: number) => {
   return crypto_data;
 };
 
+const db_import_arbs = async (
+  chain: string,
+  block_number: string,
+  expected_profit: string
+) => {
+  await db.query(
+    `INSERT INTO graph_arbitrage_2 (chain, block_number, expected_profit)
+    VALUES ($1, $2, $3);`,
+    [chain, block_number, expected_profit]
+  );
+  return;
+};
+
+const db_import_crypto = async (
+  arbitrage_id: number,
+  crypto: string,
+  contract_address: string,
+  precision: number,
+  is_stable: boolean,
+  usd_price: number
+) => {
+  await db.query(
+    `INSERT INTO graph_crypto (arbitrage_id, crypto, contract_address, precision, is_stable, usd_price)
+    VALUES ($1::integer, $2::varchar, $3::varchar, $4::integer, $5::boolean, $6::numeric);`,
+    [arbitrage_id, crypto, contract_address, precision, is_stable, usd_price]
+  );
+  return;
+};
+
 export default {
   db_connect,
   db_export_arbs,
   db_export_exchangepair,
   db_export_crypto,
+  db_import_arbs,
+  db_import_crypto,
 };

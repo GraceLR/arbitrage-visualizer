@@ -276,9 +276,13 @@ export default class UniswapV2ExchangeManager extends ExchangeManager {
     ];
   }
 
-  static async refresh_liquidity(exchange_pairs: UniswapV2ExchangePair[]) {
+  static async refresh_liquidity(
+    exchange_pairs: UniswapV2ExchangePair[],
+    runOnBlockNumber?: string
+  ) {
     const { results, blockNumber } = (await run(
-      exchange_pairs.map((c) => c.fetchReserves())
+      exchange_pairs.map((c) => c.fetchReserves()),
+      runOnBlockNumber
     )) as {
       results: [BigNumber, BigNumber, number][];
       blockNumber: number;
@@ -311,7 +315,7 @@ export default class UniswapV2ExchangeManager extends ExchangeManager {
       }
     }
 
-    const fractions = await run(fractionCalls);
+    const fractions = await run(fractionCalls, runOnBlockNumber);
 
     for (let i = 0; i < fractions.results.length; i++) {
       const pair = specialFraction[i];

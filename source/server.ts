@@ -3,11 +3,12 @@ import ws from "ws";
 import morgan from "morgan";
 import db_operations from "./db/db_operations";
 import { runBot } from "./graph/bot";
+import { runBackwards } from "./graph/backwards";
 
 db_operations.db_connect();
 
 // Web server config
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8000;
 /** Port */
 const router: Express = express();
 /** Logging */
@@ -31,7 +32,8 @@ wsServer.on("connection", (socket) => {
   clients[id++] = socket;
 });
 
-runBot(clients);
+// runBot(clients);
+runBackwards(clients);
 
 // router.get("/", (req, res) => {
 //   console.log('router.get("/") successfull####');
