@@ -44,7 +44,7 @@ async function run_internal(
   let blockNumber: number = -1;
   for (var chunk of splitEvery(batch_size, contractCalls)) {
     try {
-      const res = await multicallProvider.all(chunk);
+      const res = await multicallProvider.all(chunk, executeOnBlockNumber);
       blockNumber = res.blockNumber;
       results = [...results, ...res.results];
     } catch (e: any) {

@@ -20,7 +20,7 @@ export async function all<T extends any[] = any[]>(
     };
   });
   const callData = blockNumber === undefined ? undefined : { blockNumber };
-  const response = await multicall.aggregate(callRequests, callData);
+  const response = await multicall.aggregate(callRequests /*, callData*/);
   const callCount = calls.length;
   const callResult = [] as unknown as T;
   for (let i = 0; i < callCount; i++) {
