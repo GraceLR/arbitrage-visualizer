@@ -1,4 +1,5 @@
 import { Provider as EthersProvider } from "@ethersproject/abstract-provider";
+import { ContractCallContext } from "ethereum-multicall";
 import { all } from "./call";
 import { getEthBalance } from "./calls";
 import { ContractCall } from "./types";
@@ -25,7 +26,7 @@ export class Provider {
   }
 
   public async all<T extends any[] = any[]>(
-    calls: ContractCall[],
+    calls: ContractCallContext[],
     blockNumber?: string
   ) {
     if (!this._provider) {

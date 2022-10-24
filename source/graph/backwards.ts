@@ -3,7 +3,12 @@ import { getJsonWalletAddress } from "ethers/lib/utils";
 import fs from "fs";
 // import path from 'path';
 import { run } from "./arb/arbitrage_bot";
-import { getProvider, setProvider } from "./arb/providers";
+import {
+  getProvider,
+  setProvider,
+  setBlockNumber,
+  getBlockNumber,
+} from "./arb/providers";
 import { Config, ConfigKeys } from "./config/config";
 import AssetManager from "./domain/managers/asset_mgr";
 // import AuroraAssetManager from './exchanges/aurora/aurora_asset_mgr';
@@ -37,6 +42,7 @@ const managers: {
 
 export const runBackwards = async (clients) => {
   //try {
+  setBlockNumber(32890978);
   const network_name = "harmony"; // Config[ConfigKeys.NETWORK_NAME];
   const network = routerConfig[network_name];
   const { host, multicall2, block_speed_in_seconds } = network as {
@@ -46,8 +52,8 @@ export const runBackwards = async (clients) => {
   const asset_mgr = await managers[network_name](); // getting map without exchange rates
   const all_cryptos = asset_mgr.all_cryptos;
   let all_exchange_pairs = asset_mgr.all_exchange_pairs;
-  let initial_block_number = 32890978;
-  for (let i = initial_block_number; i >= 0; i--) {
+  for (let i = getBlockNumber() as number; i >= 0; i--) {
+    setBlockNumber(i);
     const hmy_heartbeat = new Heartbeat2(
       all_exchange_pairs,
       all_cryptos,

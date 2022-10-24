@@ -276,13 +276,10 @@ export default class UniswapV2ExchangeManager extends ExchangeManager {
     ];
   }
 
-  static async refresh_liquidity(
-    exchange_pairs: UniswapV2ExchangePair[],
-    runOnBlockNumber?: string
-  ) {
+  static async refresh_liquidity(exchange_pairs: UniswapV2ExchangePair[]) {
     const { results, blockNumber } = (await run(
       exchange_pairs.map((c) => c.fetchReserves()),
-      runOnBlockNumber
+      exchange_pairs[0].pair_contract.abi
     )) as {
       results: [BigNumber, BigNumber, number][];
       blockNumber: number;
@@ -315,7 +312,10 @@ export default class UniswapV2ExchangeManager extends ExchangeManager {
       }
     }
 
-    const fractions = await run(fractionCalls, runOnBlockNumber);
+    const fractions = await run(
+      fractionCalls,
+      exchange_pairs[0].pair_contract.abi
+    );
 
     for (let i = 0; i < fractions.results.length; i++) {
       const pair = specialFraction[i];
@@ -379,11 +379,13 @@ export default class UniswapV2ExchangeManager extends ExchangeManager {
     if (factory_address == "") {
       // try to grab it from the router
       const router = new Contract(router_address, this.router_abi);
-      factory_address = await runOne(router.factory());
+      factory_address = await runOne(router.factory(), router.abi);
     }
 
     const factory = new Contract(factory_address, this.factory_abi);
-    const pair_length = await runOne(factory.allPairsLength());
+    const pair_length = BigNumber.from(
+      await runOne(factory.allPairsLength(), factory.abi)
+    ).toNumber();
     let call_list: any[] = [];
 
     log_message(
@@ -394,7 +396,7 @@ export default class UniswapV2ExchangeManager extends ExchangeManager {
       call_list.push(factory.allPairs(i));
     }
 
-    call_list = await runAll(call_list);
+    call_list = await runAll(call_list, factory.abi);
 
     const pair_contracts = this.get_contracts_concurrent(
       call_list,
@@ -403,12 +405,18 @@ export default class UniswapV2ExchangeManager extends ExchangeManager {
 
     log_message(`Generating tokens for ${exchange_name}`);
 
-    const token0s = (await runAll(pair_contracts.map((c) => c.token0()))).map(
-      (token) => R.toLower(token)
-    );
-    const token1s = (await runAll(pair_contracts.map((c) => c.token1()))).map(
-      (token) => R.toLower(token)
-    );
+    const token0s = (
+      await runAll(
+        pair_contracts.map((c) => c.token0()),
+        this.pair_abi
+      )
+    ).map((token) => R.toLower(token));
+    const token1s = (
+      await runAll(
+        pair_contracts.map((c) => c.token1()),
+        this.pair_abi
+      )
+    ).map((token) => R.toLower(token));
 
     const missing: string[] = [];
     const seen = Object.assign(
@@ -425,9 +433,13 @@ export default class UniswapV2ExchangeManager extends ExchangeManager {
 
     const contracts = this.get_contracts_concurrent(missing, this.token_abi);
 
-    const names: string[] = await runAll(contracts.map((c) => c.symbol()));
+    const names: string[] = await runAll(
+      contracts.map((c) => c.symbol()),
+      this.token_abi
+    );
     const precisions: number[] = await runAll(
-      contracts.map((c) => c.decimals())
+      contracts.map((c) => c.decimals()),
+      this.token_abi
     );
 
     const stable_coins = this.stable_coins();
