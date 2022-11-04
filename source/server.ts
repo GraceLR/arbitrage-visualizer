@@ -8,7 +8,7 @@ import { runBackwards } from "./graph/backwards";
 db_operations.db_connect();
 
 // Web server config
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8080;
 /** Port */
 const router: Express = express();
 /** Logging */
@@ -32,8 +32,8 @@ wsServer.on("connection", (socket) => {
   clients[id++] = socket;
 });
 
-// runBot(clients);
-runBackwards(clients);
+runBot(clients);
+// runBackwards(clients);
 
 // router.get("/", (req, res) => {
 //   console.log('router.get("/") successfull####');

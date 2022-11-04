@@ -32,7 +32,12 @@ export class Provider {
     if (!this._provider) {
       throw new Error("Provider should be initialized before use.");
     }
-    return all<T>(calls, this._multicallAddress, this._provider, blockNumber);
+    return all<T>(
+      calls as unknown as any,
+      this._multicallAddress,
+      this._provider,
+      blockNumber
+    );
   }
 }
 
