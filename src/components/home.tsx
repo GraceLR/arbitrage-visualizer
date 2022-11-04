@@ -2,13 +2,15 @@ import React, { useState, useEffect } from 'react';
 import { w3cwebsocket } from 'websocket';
 import axios from 'axios';
 import { AppBar, Toolbar, Box, Paper, Typography } from '@mui/material';
+import SlidingPane from 'react-sliding-pane';
+import 'react-sliding-pane/dist/react-sliding-pane.css';
 
 import Graph from './Graph';
 import { Arb } from '../types/types';
 import LiveGraph from './LiveGraph';
 import NavTop from './NavTop';
 import NavBottom from './NavBottom';
-import Content from './content/Content';
+import './styles.css';
 
 function Home() {
     const [ws, setWebSocket] = useState<w3cwebsocket | null>(null);
@@ -17,7 +19,7 @@ function Home() {
     const [selectedNode, setSelectedNode] = useState(undefined);
     const [statusSelected, setStatusSelected] = useState('static');
     const [liveGraph, setLiveGraph] = useState<any>(null);
-    const [showModal, setShowModal] = useState(false);
+    const [state, setState] = useState(false);
     useEffect(() => {
         axios.get<Arb[]>('/api/arbs').then((all) => {
             const arbs = all.data;
@@ -37,13 +39,15 @@ function Home() {
         } else {
             ws?.close();
         }
-        if (selectedNode !== undefined) {
-            setShowModal(true);
+        if (selectedNode === undefined) {
+            setState(false);
+        } else {
+            setState(true);
         }
     }, [statusSelected, selectedNode]);
     return (
         <>
-            <AppBar position="sticky">
+            <AppBar>
                 <NavTop />
                 <NavBottom
                     arbs={arbs}
@@ -55,8 +59,10 @@ function Home() {
             <Box
                 sx={{
                     display: 'flex',
-                    justifyContent: 'space-around',
-                    marginTop: '3vw',
+                    // justifyContent: 'space-around',
+                    marginTop: '10vw',
+                    marginLeft: '3vw',
+                    marginRight: '3vw',
                 }}
             >
                 <Box
@@ -74,8 +80,21 @@ function Home() {
                     {statusSelected === 'live' && liveGraph && (
                         <LiveGraph liveGraph={liveGraph} />
                     )}
+                    <SlidingPane
+                        className="paneCless"
+                        overlayClassName="overlayClass"
+                        isOpen={state}
+                        title="Hey"
+                        subtitle="Optional subtitle."
+                        onRequestClose={() => {
+                            // triggered on "<" on left top click or on outside click
+                            setState(false);
+                        }}
+                        width="40%"
+                    >
+                        <div>Hi Content</div>
+                    </SlidingPane>
                 </Box>
-                <Content showModal={showModal} setShowModal={setShowModal} />
             </Box>
         </>
     );

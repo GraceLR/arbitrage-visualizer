@@ -1,26 +1,19 @@
-import { useState } from 'react';
-import Modal from './Modal';
-import ModalPortal from './ModalPortal';
-import { CSSTransition } from 'react-transition-group';
-import './styles.css';
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import Paper from '@mui/material/Paper';
+import Collapse from '@mui/material/Collapse';
 
-const Content = (props: { showModal: any; setShowModal: any }) => {
-    const onClickHandler = () => {
-        props.setShowModal(false);
-    };
+const icon = (
+    <Paper sx={{ bgcolor: '#c8e6c9', height: '100%' }}>
+        <Box component="svg"></Box>
+    </Paper>
+);
 
+const Content = (props: { contentShow: any }) => {
     return (
-        <ModalPortal show={props.showModal} onClick={onClickHandler}>
-            <CSSTransition
-                mountOnEnter
-                unmountOnExit
-                in={props.showModal}
-                timeout={{ enter: 700, exit: 700 }}
-                classNames="modal"
-            >
-                <Modal onClick={onClickHandler} />
-            </CSSTransition>
-        </ModalPortal>
+        <Collapse orientation="horizontal" in={props.contentShow}>
+            {icon}
+        </Collapse>
     );
 };
 
