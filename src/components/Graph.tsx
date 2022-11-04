@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 import { Map, GraphMap } from '../types/types';
-import InnerGraphNew from './InnerGraphNew';
+// import InnerGraphNew from './InnerGraphNew';
+import NodesGraph from 'react-vis-ts';
 
 const options = {
     layout: {
@@ -18,34 +19,16 @@ const options = {
     },
 };
 
-// function useStateRef<T>(
-//     initialValue: T | (() => T)
-// ): [T, React.Dispatch<React.SetStateAction<T>>, React.MutableRefObject<T>] {
-//     const [value, setValue] = React.useState(initialValue);
-
-//     const ref = React.useRef(value);
-
-//     React.useEffect(() => {
-//         ref.current = value;
-//     }, [value]);
-
-//     return [value, setValue, ref];
-// }
-
 function Graph(props: {
     selected: number;
     selectedNode: any;
     setSelectedNode: any;
 }) {
-    // const [map, setMap] = useState<Map>();
     const [graphMap, setGraphMap] = useState<GraphMap>({
         counter: 0,
         nodes: [],
         edges: [],
     });
-    // const [selectedNode, setSelectedNode, ref] = useStateRef<
-    //     number | undefined
-    // >(undefined);
     const events = {
         click: (properties: any) => {
             if (properties.event.srcEvent.shiftKey) {
@@ -125,7 +108,7 @@ function Graph(props: {
     }, [props.selected]);
     return (
         <>
-            <InnerGraphNew
+            <NodesGraph
                 graph={graphMap}
                 options={options}
                 events={events}

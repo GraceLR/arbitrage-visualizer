@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 import { Map, GraphMap } from '../types/types';
-import InnerGraphNew from './InnerGraphNew';
+// import InnerGraphNew from './InnerGraphNew';
+import NodesGraph from 'react-vis-ts';
 
 const options = {
     layout: {
@@ -42,7 +43,7 @@ function LiveGraph(props: { liveGraph: any }) {
 
     return (
         <>
-            <InnerGraphNew
+            <NodesGraph
                 graph={graph}
                 options={options}
                 style={{ height: '640px' }}
