@@ -35,6 +35,12 @@ export interface Map {
 }
 export interface GraphMap {
     counter: number;
-    nodes: { id: number; label: string; color: string; x?: any; y?: any }[];
+    nodes: {
+        id: number;
+        label: any;
+        color: string;
+        x?: any;
+        y?: any;
+    }[];
     edges: { from: number; to: number }[];
 }

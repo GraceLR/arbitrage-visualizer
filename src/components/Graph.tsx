@@ -45,17 +45,31 @@ function Graph(props: {
             }
         },
     };
-    const createNode = (x: number, y: number, nodeId: number | undefined) => {
+    const createNode = async (
+        x: number,
+        y: number,
+        nodeId: number | undefined
+    ) => {
         if (nodeId === undefined) {
             alert('Please select a node.');
             return;
         }
+        const icons =
+            require('../../node_modules/cryptocurrency-icons/svg/color/kmd.svg').default;
         setGraphMap(({ counter, nodes, edges }) => {
             const id = counter - 1;
             const from = nodeId;
 
             const color = '#bdbdbd';
-            const node = { id, label: `${id}`, color, x, y };
+            const node = {
+                id,
+                label: id,
+                shape: 'image',
+                image: icons,
+                color,
+                x,
+                y,
+            };
             const edge = { from, to: id, label: 'added' };
 
             return {
@@ -90,12 +104,16 @@ function Graph(props: {
                     // show position
                 };
             });
-
+            const icons =
+                require('../../node_modules/cryptocurrency-icons/svg/color/kmd.svg').default;
             const graph = {
                 counter: 0,
                 nodes: mapData.data.crypto.map((c) => ({
                     id: c.id,
-                    label: c.crypto,
+                    // label: c.crypto,
+                    label: 'label',
+                    shape: 'image',
+                    image: icons,
                     color: nodesWithPos[c.id] ? '#d50000' : '#bdbdbd',
                     // ask jason how to define the color
                 })),
