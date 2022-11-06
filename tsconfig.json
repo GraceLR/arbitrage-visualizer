@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "lib": ["esnext", "dom"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": false,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "removeComments": true,
+        "noImplicitAny": false,
+        "noImplicitThis": false
+    },
+    "ts-node": {
+        // these options are overrides used only by ts-node
+        // same as the --compilerOptions flag and the TS_NODE_COMPILER_OPTIONS environment variable
+        "compilerOptions": {
+            "module": "commonjs"
+        }
+    },
+    "include": ["./source"],
+    "exclude": ["./node_modules"]
+}

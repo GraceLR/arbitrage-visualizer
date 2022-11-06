@@ -1,0 +1,2051 @@
+{
+    "exchange_pairs": [
+        {
+            "exchange": "solidly",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e",
+            "crypto0_name": "USDC",
+            "crypto1_name": "DAI",
+            "pair_address": "0xC0240Ee4405f11EFb87A00B432A8be7b7Afc97CC",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0xfb98b335551a418cd0737375a2ea0ded62ea213b",
+            "crypto0_name": "USDC",
+            "crypto1_name": "miMATIC",
+            "pair_address": "0x55C070466Da687a6E1bDdB889ba09873D8f4Fb2A",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x6c021ae822bea943b2e66552bde1d2696a53fbb7",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "TOMB",
+            "pair_address": "0x60a861Cd30778678E3d613db96139440Bd333143",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x82f0b8b456c1a451378467398982d4834b6829c1",
+            "crypto0_name": "USDC",
+            "crypto1_name": "MIM",
+            "pair_address": "0xbcab7d083Cf6a01e0DdA9ed7F8a02b47d125e682",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x74b23882a30290451a17c44f4f05243b6b58c76d",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "ETH",
+            "pair_address": "0xb0ffAE1c213EAA031AA20a1DAC86f543438e8202",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x9fb9a33956351cf4fa040f65a13b835a3c8764e3",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "MULTI",
+            "pair_address": "0x94bE7e51efE2A0C06c2281b6b385FCD12C84d6F9",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x82f0b8b456c1a451378467398982d4834b6829c1",
+            "crypto0_name": "USDC",
+            "crypto1_name": "MIM",
+            "pair_address": "0x5D97b82305fda1e7e0B903149D4F0454ecD7fF72",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x911da02c1232a3c3e1418b834a311921143b04d7",
+            "crypto0_name": "USDC",
+            "crypto1_name": "WeVE",
+            "pair_address": "0xD9A4108CBB40a12dE16dFFDc54aE5065878816d7",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x10b620b2dbac4faa7d7ffd71da486f5d44cd86f9",
+            "crypto1": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto0_name": "LQDR",
+            "crypto1_name": "WFTM",
+            "pair_address": "0x9861B8a9Acc9B4f249981164bFe7f84202068bfE",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xe0654c8e6fd4d733349ac7e09f6f23da256bf475",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "SCREAM",
+            "pair_address": "0x86dD79265814756713e631Dde7E162bdD538b7B1",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x00a35fd824c717879bf370e70ac6868b95870dfb",
+            "crypto1": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto0_name": "IB",
+            "crypto1_name": "WFTM",
+            "pair_address": "0x304B61f3481C977Ffbe630B55f2aBeEe74792664",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0xd6070ae98b8069de6b494332d1a1a81b6179d960",
+            "crypto1": "0xfb98b335551a418cd0737375a2ea0ded62ea213b",
+            "crypto0_name": "BIFI",
+            "crypto1_name": "miMATIC",
+            "pair_address": "0x8aeB0503E13F7bea02F80986a8FDb2AccE5C6b6C",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xc5e2b037d30a390e62180970b3aa4e91868764cd",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "TAROT",
+            "pair_address": "0x783f1eDBE336981dFCb74Bd0B803655F55AaDF48",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0xc165d941481e68696f43ee6e99bfb2b23e0e3114",
+            "crypto0_name": "USDC",
+            "crypto1_name": "OXD",
+            "pair_address": "0xEaFB5Ae6eEa34954eE5e5a27B068B8705CE926a6",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0xdc301622e621166bd8e82f2ca0a26c13ad0be355",
+            "crypto0_name": "USDC",
+            "crypto1_name": "FRAX",
+            "pair_address": "0x154eA0E896695824C87985a52230674C2BE7731b",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x321162cd933e2be498cd2267a90534a804051b11",
+            "crypto1": "0xdbf31df14b66535af65aac99c32e9ea844e14501",
+            "crypto0_name": "BTC",
+            "crypto1_name": "renBTC",
+            "pair_address": "0x6058345A4D8B89Ddac7042Be08091F91a404B80b",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x5cc61a78f164885776aa610fb0fe1257df78e59b",
+            "crypto1": "0xc5713b6a0f26bf0fdc1c52b90cd184d950be515c",
+            "crypto0_name": "SPIRIT",
+            "crypto1_name": "LINSPIRIT",
+            "pair_address": "0xd6be7592E5C424623c8C9557738970aE19ab5de2",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x41adac6c1ff52c5e27568f27998d747f7b69795b",
+            "crypto1": "0x888ef71766ca594ded1f0fa3ae64ed2941740a20",
+            "crypto0_name": "SOLIDsex",
+            "crypto1_name": "SOLID",
+            "pair_address": "0x62E2819Dd417F3b430B6fa5Fd34a49A377A02ac8",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xd31fcd1f7ba190dbc75354046f6024a9b86014d7",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "SEX",
+            "pair_address": "0xFCEC86aF8774d69e2e4412B8De3f4aBf1f671ecC",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x5cc61a78f164885776aa610fb0fe1257df78e59b",
+            "crypto1": "0xf9c6e3c123f0494a4447100bd7dbd536f43cc33a",
+            "crypto0_name": "SPIRIT",
+            "crypto1_name": "RAINSPIRIT",
+            "pair_address": "0xCa395560B6003D921D9408aF011C6C61399F66cA",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x888ef71766ca594ded1f0fa3ae64ed2941740a20",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "SOLID",
+            "pair_address": "0xe4bc39fdD4618a76f6472079C329bdfa820afA75",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x41adac6c1ff52c5e27568f27998d747f7b69795b",
+            "crypto1": "0xd31fcd1f7ba190dbc75354046f6024a9b86014d7",
+            "crypto0_name": "SOLIDsex",
+            "crypto1_name": "SEX",
+            "pair_address": "0xB1Ead3Edb37A8159f57226F3D138F058b1C56232",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x41adac6c1ff52c5e27568f27998d747f7b69795b",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "SOLIDsex",
+            "pair_address": "0xa66901D1965F5410dEeB4d0Bb43f7c1B628Cb20b",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x21ada0d2ac28c3a5fa3cd2ee30882da8812279b6",
+            "crypto1": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto0_name": "OATH",
+            "crypto1_name": "WFTM",
+            "pair_address": "0x6B987e02Ca5eAE26D8B2bCAc724D4e03b3B0c295",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0xde12c7959e1a72bbe8a5f7a1dc8f8eef9ab011b3",
+            "crypto0_name": "USDC",
+            "crypto1_name": "DEI",
+            "pair_address": "0x5821573d8F04947952e76d94f3ABC6d7b43bF8d0",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0xde12c7959e1a72bbe8a5f7a1dc8f8eef9ab011b3",
+            "crypto1": "0xde5ed76e7c05ec5e4572cfc88d1acea165109e44",
+            "crypto0_name": "DEI",
+            "crypto1_name": "DEUS",
+            "pair_address": "0xF42dBcf004a93ae6D5922282B304E2aEFDd50058",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x7381ed41f6de418dde5e84b55590422a57917886",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "beFTM",
+            "pair_address": "0x387a11D161f6855Bd3c801bA6C79Fe9b824Ce1f3",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x8503eb4a136bdbeb323e37aa6e0fa0c772228378",
+            "crypto1": "0xf8fc059dafdce4ef2edfc72cbbaf410d7531e610",
+            "crypto0_name": "BOMB",
+            "crypto1_name": "PGUNK",
+            "pair_address": "0x270b4cdEAebC4E0522AA4371a9BE38c624193cEe",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x2e79205648b85485731cfe3025d66cf2d3b059c4",
+            "crypto1": "0x6ab5660f0b1f174cfa84e9977c15645e4848f5d6",
+            "crypto0_name": "SCARAB",
+            "crypto1_name": "GSCARAB",
+            "pair_address": "0xa61DE98597f7da23f26C8D594Cce4884AFCe37EB",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0xdbf31df14b66535af65aac99c32e9ea844e14501",
+            "crypto0_name": "USDC",
+            "crypto1_name": "renBTC",
+            "pair_address": "0x685213f6b16275877478D8704aD7AE0Aed5B78d3",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x112df7e3b4b7ab424f07319d4e92f41e6608c48b",
+            "crypto1": "0x8a41f13a4fae75ca88b1ee726ee9d52b148b0498",
+            "crypto0_name": "pFTM",
+            "crypto1_name": "PAE",
+            "pair_address": "0xA7f3CD681e449AB346a69E41229C9eC9AC30C8a9",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "solidly",
+            "crypto0": "0x112df7e3b4b7ab424f07319d4e92f41e6608c48b",
+            "crypto1": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto0_name": "pFTM",
+            "crypto1_name": "WFTM",
+            "pair_address": "0x3d58F5c76D8833A18E9CF084d2a4ce5c2E2B9062",
+            "router_address": "0xa38cd27185a464914D3046f0AB9d43356B34829D",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x5cc61a78f164885776aa610fb0fe1257df78e59b",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "SPIRIT",
+            "pair_address": "0x30748322B6E34545DBe0788C421886AEB5297789",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x321162cd933e2be498cd2267a90534a804051b11",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "BTC",
+            "pair_address": "0x279b2c897737a50405ED2091694F225D83F2D3bA",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x74b23882a30290451a17c44f4f05243b6b58c76d",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "ETH",
+            "pair_address": "0x613BF4E46b4817015c01c6Bb31C7ae9edAadc26e",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto0_name": "USDC",
+            "crypto1_name": "WFTM",
+            "pair_address": "0xe7E90f5a767406efF87Fdad7EB07ef407922EC1D",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x09e145a1d53c0045f41aeef25d8ff982ae74dd56",
+            "crypto1": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto0_name": "ZOO",
+            "crypto1_name": "WFTM",
+            "pair_address": "0xDF18DD2631f02D930071DF7d6FF89bbc3718C62F",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xf16e81dce15b08f326220742020379b855b87df9",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "ICE",
+            "pair_address": "0x936D23C83c2469f6a14B9f5bEaec13879598A5aC",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xae75a438b2e0cb8bb01ec1e1e376de11d44477cc",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "SUSHI",
+            "pair_address": "0x9Fe4c0CE5F533e96C2b72d852f190961AD5a7bB3",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x1e4f97b9f9f913c46f1632781732927b9019c68b",
+            "crypto1": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto0_name": "CRV",
+            "crypto1_name": "WFTM",
+            "pair_address": "0x374C8ACb146407Ef0AE8F82BaAFcF8f4EC1708CF",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xb3654dc3d10ea7645f8319668e8f54d2574fbdc8",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "LINK",
+            "pair_address": "0xd061c6586670792331E14a80f3b3Bb267189C681",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x29b0da86e484e1c0029b56e817912d778ac0ec69",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "YFI",
+            "pair_address": "0x4fc38a2735C7da1d71ccAbf6DeC235a7DA4Ec52C",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xddcb3ffd12750b45d32e084887fdf1aabab34239",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "ANY",
+            "pair_address": "0x26D583028989378Cc1b7CBC023f4Ae049d5e5899",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "DAI",
+            "pair_address": "0xdbc490b47508D31c9EC44aFB6e132AD01C61A02c",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e",
+            "crypto0_name": "USDC",
+            "crypto1_name": "DAI",
+            "pair_address": "0x9606D683d03f012DDa296eF0ae9261207C4A5847",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x049d68029688eabf473097a2fc38ef61633a3c7a",
+            "crypto1": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto0_name": "fUSDT",
+            "crypto1_name": "WFTM",
+            "pair_address": "0xd14Dd3c56D9bc306322d4cEa0E1C49e9dDf045D4",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x10b620b2dbac4faa7d7ffd71da486f5d44cd86f9",
+            "crypto1": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto0_name": "LQDR",
+            "crypto1_name": "WFTM",
+            "pair_address": "0x4Fe6f19031239F105F753D1DF8A0d24857D0cAA2",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xd67de0e0a0fd7b15dc8348bb9be742f3c5850454",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "BNB",
+            "pair_address": "0x74fE5Ddc4c27F91a1898ccd5Ac62dFeb2d3dF726",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x5cc61a78f164885776aa610fb0fe1257df78e59b",
+            "crypto1": "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e",
+            "crypto0_name": "SPIRIT",
+            "crypto1_name": "DAI",
+            "pair_address": "0xfFbfc0446cA725b21256461e214E9D472f9be390",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x049d68029688eabf473097a2fc38ef61633a3c7a",
+            "crypto0_name": "USDC",
+            "crypto1_name": "fUSDT",
+            "pair_address": "0xe7F86CEf8FEf60ce5050899D1F8e465C00D04a79",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x8503eb4a136bdbeb323e37aa6e0fa0c772228378",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "BOMB",
+            "pair_address": "0x11d7fD8Deb7F37EA97218F70550E03fe6683df3D",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x82f0b8b456c1a451378467398982d4834b6829c1",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "MIM",
+            "pair_address": "0xB32b31DfAfbD53E310390F641C7119b5B9Ea0488",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x10b620b2dbac4faa7d7ffd71da486f5d44cd86f9",
+            "crypto1": "0x5cc61a78f164885776aa610fb0fe1257df78e59b",
+            "crypto0_name": "LQDR",
+            "crypto1_name": "SPIRIT",
+            "pair_address": "0xFeBbfeA7674720cEdD35e9384d07F235365c1B3e",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xc5e2b037d30a390e62180970b3aa4e91868764cd",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "TAROT",
+            "pair_address": "0xF050133847bb537C7476D054B8bE6e30253Fbd05",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xd6070ae98b8069de6b494332d1a1a81b6179d960",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "BIFI",
+            "pair_address": "0xc28cf9aeBfe1A07A27B3A4d722C841310e504Fe3",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x82f0b8b456c1a451378467398982d4834b6829c1",
+            "crypto0_name": "USDC",
+            "crypto1_name": "MIM",
+            "pair_address": "0xc19C7615237f770179ed93d89126478c60742664",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x468003b688943977e6130f4f68f23aad939a1040",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "SPELL",
+            "pair_address": "0x19d4092635740699B6E4735701742740e235165A",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x049d68029688eabf473097a2fc38ef61633a3c7a",
+            "crypto1": "0x468003b688943977e6130f4f68f23aad939a1040",
+            "crypto0_name": "fUSDT",
+            "crypto1_name": "SPELL",
+            "pair_address": "0x31c0385DDE956f95D43Dac80Bd74FEE149961f4c",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0xdc301622e621166bd8e82f2ca0a26c13ad0be355",
+            "crypto0_name": "USDC",
+            "crypto1_name": "FRAX",
+            "pair_address": "0x1478AEC7896e40aE5fB858C77D389F0B3e6CbC5d",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xdc301622e621166bd8e82f2ca0a26c13ad0be355",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "FRAX",
+            "pair_address": "0x7ed0cdDB9BB6c6dfEa6fB63E117c8305479B8D7D",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x87d57f92852d7357cf32ac4f6952204f2b0c1a27",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "RNDM",
+            "pair_address": "0x7FD9c5F26a77cA5bef95701552bD315Cc1095F08",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x3dc57b391262e3aae37a08d91241f9ba9d58b570",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "YOSHI",
+            "pair_address": "0x9D2489d0DA3436445a0a5ef8515Dc10B2D8b4eaA",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x5cc61a78f164885776aa610fb0fe1257df78e59b",
+            "crypto1": "0xc5713b6a0f26bf0fdc1c52b90cd184d950be515c",
+            "crypto0_name": "SPIRIT",
+            "crypto1_name": "LINSPIRIT",
+            "pair_address": "0x54D5B6881b429A694712fa89875448ca8ADF06F4",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0xde12c7959e1a72bbe8a5f7a1dc8f8eef9ab011b3",
+            "crypto0_name": "USDC",
+            "crypto1_name": "DEI",
+            "pair_address": "0x8eFD36aA4Afa9F4E157bec759F1744A7FeBaEA0e",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xde5ed76e7c05ec5e4572cfc88d1acea165109e44",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "DEUS",
+            "pair_address": "0x2599Eba5fD1e49F294C76D034557948034d6C96E",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xb37528da6b4d378305d000a66ad91bd88e626761",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "MIDAS",
+            "pair_address": "0xede32b76302CB71cc0467C4B42DAbFfa6b091Dd1",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x94ccf60f700146bea8ef7832820800e2dfa92eda",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "wsHEC",
+            "pair_address": "0xE1fd274Ef08D50C3ecdaEe90c322b6c2342AE5DE",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xfb98b335551a418cd0737375a2ea0ded62ea213b",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "miMATIC",
+            "pair_address": "0x51Eb93ECfEFFbB2f6fE6106c4491B5a0B944E8bd",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x2e79205648b85485731cfe3025d66cf2d3b059c4",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "SCARAB",
+            "pair_address": "0x78e70eF4eE5cc72FC25A8bDA4519c45594CcD8d4",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x9fb9a33956351cf4fa040f65a13b835a3c8764e3",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "MULTI",
+            "pair_address": "0x15aFDbDb27767d58A58459ae159814b6bBe6f506",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x6ab5660f0b1f174cfa84e9977c15645e4848f5d6",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "GSCARAB",
+            "pair_address": "0x27228140D72a7186F70eD3052C3318f2D55c404d",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x2e79205648b85485731cfe3025d66cf2d3b059c4",
+            "crypto1": "0x6ab5660f0b1f174cfa84e9977c15645e4848f5d6",
+            "crypto0_name": "SCARAB",
+            "crypto1_name": "GSCARAB",
+            "pair_address": "0x8e38543d4c764DBd8f8b98C73407457a3D3b4999",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x59d07a115fe3ffe5db3d52029d43cc0ef5e9ba08",
+            "crypto0_name": "USDC",
+            "crypto1_name": "SUPA",
+            "pair_address": "0x6B208b4Df2339E0cE0371B9b1b8F7e00EA47B773",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x82f0b8b456c1a451378467398982d4834b6829c1",
+            "crypto1": "0x911da02c1232a3c3e1418b834a311921143b04d7",
+            "crypto0_name": "MIM",
+            "crypto1_name": "WeVE",
+            "pair_address": "0x5ab00b7E2FFA1Ce2ba419A0A61978A05F1b518af",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x911da02c1232a3c3e1418b834a311921143b04d7",
+            "crypto0_name": "USDC",
+            "crypto1_name": "WeVE",
+            "pair_address": "0xFf85fc809E760a09E5940546cE66dDE579144a37",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x87a5c9b60a3aaf1064006fe64285018e50e0d020",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "MAGIK",
+            "pair_address": "0xDc71A6160322ad78DaB0abb47C7A581cFE9709Ee",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xc8ca9026ad0882133ef126824f6852567c571a4e",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "MSHARE",
+            "pair_address": "0x392C85cECcf9855986b0044a365A5532aeC6Fa31",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x87a5c9b60a3aaf1064006fe64285018e50e0d020",
+            "crypto1": "0xc8ca9026ad0882133ef126824f6852567c571a4e",
+            "crypto0_name": "MAGIK",
+            "crypto1_name": "MSHARE",
+            "pair_address": "0x4d6b28441c8B293A603243431E6E31F3C2632ddD",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0xe83ce6bfb580583bd6a62b4be7b34fc25f02910d",
+            "crypto0_name": "USDC",
+            "crypto1_name": "FABBC",
+            "pair_address": "0xAB8E8422394B8cb87c263943f073FEc4d0029869",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x5cc61a78f164885776aa610fb0fe1257df78e59b",
+            "crypto1": "0xf9c6e3c123f0494a4447100bd7dbd536f43cc33a",
+            "crypto0_name": "SPIRIT",
+            "crypto1_name": "RAINSPIRIT",
+            "pair_address": "0x15fD4C105EAd01Fc357caE997Cbd7fE989FB40E5",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21ada0d2ac28c3a5fa3cd2ee30882da8812279b6",
+            "crypto1": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto0_name": "OATH",
+            "crypto1_name": "WFTM",
+            "pair_address": "0xD0891213C87D68773477428aC800B5F7eECF641e",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x582423c10c9e83387a96d00a69ba3d11ee47b7b5",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "RING",
+            "pair_address": "0x33B25FA6EbA0FCf6c7CEF56Fef41Be21B87a2162",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x7381ed41f6de418dde5e84b55590422a57917886",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "beFTM",
+            "pair_address": "0xE3D4C22d0543E050a8b3F713899854Ed792fc1bD",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x3e01b7e242d5af8064cb9a8f9468ac0f8683617c",
+            "crypto0_name": "USDC",
+            "crypto1_name": "ORBS",
+            "pair_address": "0x4B668A229740b4F6d04cE2D1b05648Ef1d508EC1",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xd7028092c830b5c8fce061af2e593413ebbc1fc1",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "sFTMX",
+            "pair_address": "0x72133BBff5072616E165237e69b3F4c87C1a94e8",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x70f9fd19f857411b089977e7916c05a0fc477ac9",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "gALCX",
+            "pair_address": "0x633EFedFC7F1742A7e70f5Bcb9FA22B15204e56B",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "spiritswap",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x94a7f270cd12545a277e656266aef5e27df3eb28",
+            "crypto0_name": "USDC",
+            "crypto1_name": "FSTRM",
+            "pair_address": "0x797BD5E7CeE3E6E23cd6A033351cF8b4095fDd52",
+            "router_address": "0x16327e3fbdaca3bcf7e38f5af2599d2ddc33ae52",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "sushiswap",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto0_name": "USDC",
+            "crypto1_name": "WFTM",
+            "pair_address": "0xA48869049e36f8Bfe0Cc5cf655632626988c0140",
+            "router_address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "sushiswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x74b23882a30290451a17c44f4f05243b6b58c76d",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "ETH",
+            "pair_address": "0x3d0BD54c48C2C433ea6fed609Cc3d5Fb7A77622B",
+            "router_address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "sushiswap",
+            "crypto0": "0x74b23882a30290451a17c44f4f05243b6b58c76d",
+            "crypto1": "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e",
+            "crypto0_name": "ETH",
+            "crypto1_name": "DAI",
+            "pair_address": "0x71C8BceEcE3dAf9E27741D2Cc1F03170f862555f",
+            "router_address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "sushiswap",
+            "crypto0": "0x049d68029688eabf473097a2fc38ef61633a3c7a",
+            "crypto1": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto0_name": "fUSDT",
+            "crypto1_name": "WFTM",
+            "pair_address": "0xd019dd7C760c6431797d6ed170bFFb8FAee11F99",
+            "router_address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "sushiswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xf16e81dce15b08f326220742020379b855b87df9",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "ICE",
+            "pair_address": "0x84311ECC54D7553378c067282940b0fdfb913675",
+            "router_address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "sushiswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xb3654dc3d10ea7645f8319668e8f54d2574fbdc8",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "LINK",
+            "pair_address": "0x1Ca86e57103564F47fFCea7259a6ce8Cc1301549",
+            "router_address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "sushiswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xae75a438b2e0cb8bb01ec1e1e376de11d44477cc",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "SUSHI",
+            "pair_address": "0x49D2e0DC99C7358D7A9A8633Bf6df111D0EE7F65",
+            "router_address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "sushiswap",
+            "crypto0": "0x321162cd933e2be498cd2267a90534a804051b11",
+            "crypto1": "0x74b23882a30290451a17c44f4f05243b6b58c76d",
+            "crypto0_name": "BTC",
+            "crypto1_name": "ETH",
+            "pair_address": "0x33e29a9eBdD370a8D50656e822aBFD3A910dA1b6",
+            "router_address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "sushiswap",
+            "crypto0": "0x049d68029688eabf473097a2fc38ef61633a3c7a",
+            "crypto1": "0x10b620b2dbac4faa7d7ffd71da486f5d44cd86f9",
+            "crypto0_name": "fUSDT",
+            "crypto1_name": "LQDR",
+            "pair_address": "0xA1BB6830fAbdDB99Ed365C0611a33741c5e6173f",
+            "router_address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "sushiswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xf8fc059dafdce4ef2edfc72cbbaf410d7531e610",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "PGUNK",
+            "pair_address": "0xC30FA09417F149892Ff86eF92a051c0bC2244c7C",
+            "router_address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "sushiswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x3dc57b391262e3aae37a08d91241f9ba9d58b570",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "YOSHI",
+            "pair_address": "0xd4Db674caF2259403EA51C09Cef068e214aC4139",
+            "router_address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "sushiswap",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x82f0b8b456c1a451378467398982d4834b6829c1",
+            "crypto0_name": "USDC",
+            "crypto1_name": "MIM",
+            "pair_address": "0xFFdc0531288dc91C1F49Db03A90Ed84725E9eDa7",
+            "router_address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "sushiswap",
+            "crypto0": "0x5a33869045db8a6a16c9f351293501cfd92cf7ed",
+            "crypto1": "0x82f0b8b456c1a451378467398982d4834b6829c1",
+            "crypto0_name": "BSGG",
+            "crypto1_name": "MIM",
+            "pair_address": "0x23320D8F931A52232F1DD9217B25721194cf6812",
+            "router_address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "sushiswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x5a33869045db8a6a16c9f351293501cfd92cf7ed",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "BSGG",
+            "pair_address": "0xfdb1675eE679Db2Ce7C1dC4Ab1A42E8F41831665",
+            "router_address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "sushiswap",
+            "crypto0": "0x29b0da86e484e1c0029b56e817912d778ac0ec69",
+            "crypto1": "0x74b23882a30290451a17c44f4f05243b6b58c76d",
+            "crypto0_name": "YFI",
+            "crypto1_name": "ETH",
+            "pair_address": "0xe3eD4237532E6095749a6C984bFCb449C2b86122",
+            "router_address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "sushiswap",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x94a7f270cd12545a277e656266aef5e27df3eb28",
+            "crypto0_name": "USDC",
+            "crypto1_name": "FSTRM",
+            "pair_address": "0xD0038EbE22Ab8fA4aCFF64e1D5d8FCA8C92572D4",
+            "router_address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "sushiswap",
+            "crypto0": "0x1f0f8268d02b607740c7289093b9bc42f93d8439",
+            "crypto1": "0xc543c3af35a39e57b58efb0d2cbfc113d79ca5c7",
+            "crypto0_name": "BUSD",
+            "crypto1_name": "USDV",
+            "pair_address": "0x417F5c0c4Bf9D52b0fB4e2Be8eb87243dBDA0Bac",
+            "router_address": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
+            "exchange_fee": "0.3"
+        },
+        {
+            "exchange": "morpheusswap",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto0_name": "USDC",
+            "crypto1_name": "WFTM",
+            "pair_address": "0xD095675C684452825e61804dA7d6CEccB613AFe8",
+            "router_address": "0x8aC868293D97761A1fED6d4A01E9FF17C5594Aa3",
+            "exchange_fee": "0.15"
+        },
+        {
+            "exchange": "morpheusswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x82f0b8b456c1a451378467398982d4834b6829c1",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "MIM",
+            "pair_address": "0x9270bD93a9298047Fdbab9CbD3Bd87FE674A907B",
+            "router_address": "0x8aC868293D97761A1fED6d4A01E9FF17C5594Aa3",
+            "exchange_fee": "0.15"
+        },
+        {
+            "exchange": "morpheusswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x74b23882a30290451a17c44f4f05243b6b58c76d",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "ETH",
+            "pair_address": "0x4B884c817521247cb9fa2530F2e9D4eABb3B4066",
+            "router_address": "0x8aC868293D97761A1fED6d4A01E9FF17C5594Aa3",
+            "exchange_fee": "0.15"
+        },
+        {
+            "exchange": "morpheusswap",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x321162cd933e2be498cd2267a90534a804051b11",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "BTC",
+            "pair_address": "0x751A1Bff4Faa4D2615b9ca2a1a7bB3fC935dA494",
+            "router_address": "0x8aC868293D97761A1fED6d4A01E9FF17C5594Aa3",
+            "exchange_fee": "0.15"
+        },
+        {
+            "exchange": "morpheusswap",
+            "crypto0": "0x82f0b8b456c1a451378467398982d4834b6829c1",
+            "crypto1": "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e",
+            "crypto0_name": "MIM",
+            "crypto1_name": "DAI",
+            "pair_address": "0xeBAA2BDD1435Cce852948e9c1fb3F0b9C479Ce71",
+            "router_address": "0x8aC868293D97761A1fED6d4A01E9FF17C5594Aa3",
+            "exchange_fee": "0.15"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x321162cd933e2be498cd2267a90534a804051b11",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "BTC",
+            "pair_address": "0xFdb9Ab8B9513Ad9E419Cf19530feE49d412C3Ee3",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x74b23882a30290451a17c44f4f05243b6b58c76d",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "ETH",
+            "pair_address": "0xf0702249F4D3A25cD3DED7859a165693685Ab577",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto0_name": "USDC",
+            "crypto1_name": "WFTM",
+            "pair_address": "0x2b4C76d0dc16BE1C31D4C1DC53bF9B45987Fc75c",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x049d68029688eabf473097a2fc38ef61633a3c7a",
+            "crypto1": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto0_name": "fUSDT",
+            "crypto1_name": "WFTM",
+            "pair_address": "0x5965E53aa80a0bcF1CD6dbDd72e6A9b2AA047410",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "DAI",
+            "pair_address": "0xe120ffBDA0d14f3Bb6d6053E90E63c572A66a428",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xb3654dc3d10ea7645f8319668e8f54d2574fbdc8",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "LINK",
+            "pair_address": "0x89d9bC2F2d091CfBFc31e333D6Dc555dDBc2fd29",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x1e4f97b9f9f913c46f1632781732927b9019c68b",
+            "crypto1": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto0_name": "CRV",
+            "crypto1_name": "WFTM",
+            "pair_address": "0xB471Ac6eF617e952b84C6a9fF5de65A9da96C93B",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xae75a438b2e0cb8bb01ec1e1e376de11d44477cc",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "SUSHI",
+            "pair_address": "0xf84E313B36E86315af7a06ff26C8b20e9EB443C3",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xf16e81dce15b08f326220742020379b855b87df9",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "ICE",
+            "pair_address": "0x623EE4a7F290d11C11315994dB70FB148b13021d",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x09e145a1d53c0045f41aeef25d8ff982ae74dd56",
+            "crypto1": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto0_name": "ZOO",
+            "crypto1_name": "WFTM",
+            "pair_address": "0x3Cceb477Fcb6cDE90180983642486E68148D7b27",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x321162cd933e2be498cd2267a90534a804051b11",
+            "crypto1": "0x74b23882a30290451a17c44f4f05243b6b58c76d",
+            "crypto0_name": "BTC",
+            "crypto1_name": "ETH",
+            "pair_address": "0xEc454EdA10accdD66209C57aF8C12924556F3aBD",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e",
+            "crypto0_name": "USDC",
+            "crypto1_name": "DAI",
+            "pair_address": "0x484237bc35cA671302d19694c66d617142FBC235",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x049d68029688eabf473097a2fc38ef61633a3c7a",
+            "crypto0_name": "USDC",
+            "crypto1_name": "fUSDT",
+            "pair_address": "0xFdef392aDc84607135C24ca45DE5452d77aa10DE",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x841fad6eae12c286d1fd18d1d525dffa75c7effe",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "BOO",
+            "pair_address": "0xEc7178F4C41f346b2721907F5cF7628E388A7a58",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x841fad6eae12c286d1fd18d1d525dffa75c7effe",
+            "crypto0_name": "USDC",
+            "crypto1_name": "BOO",
+            "pair_address": "0xf8Cb2980120469d79958151daa45Eb937c6E1eD6",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x10b620b2dbac4faa7d7ffd71da486f5d44cd86f9",
+            "crypto1": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto0_name": "LQDR",
+            "crypto1_name": "WFTM",
+            "pair_address": "0x506DdcC751C7d500F983FfdA6DdEfbE458Ba2c33",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xd67de0e0a0fd7b15dc8348bb9be742f3c5850454",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "BNB",
+            "pair_address": "0x956DE13EA0FA5b577E4097Be837BF4aC80005820",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xddcb3ffd12750b45d32e084887fdf1aabab34239",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "ANY",
+            "pair_address": "0x5c021D9cfaD40aaFC57786b409A9ce571de375b4",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x6c021ae822bea943b2e66552bde1d2696a53fbb7",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "TOMB",
+            "pair_address": "0x2A651563C9d3Af67aE0388a5c8F89b867038089e",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xd6070ae98b8069de6b494332d1a1a81b6179d960",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "BIFI",
+            "pair_address": "0x1656728af3a14e1319F030Dc147fAbf6f627059e",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x82f0b8b456c1a451378467398982d4834b6829c1",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "MIM",
+            "pair_address": "0x6f86e65b255c9111109d2D2325ca2dFc82456efc",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x82f0b8b456c1a451378467398982d4834b6829c1",
+            "crypto0_name": "USDC",
+            "crypto1_name": "MIM",
+            "pair_address": "0x3C9Ad6268065E425085F11ab8ea803973BE6bcF3",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xc5e2b037d30a390e62180970b3aa4e91868764cd",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "TAROT",
+            "pair_address": "0x11D90eA9d16e1Ee5879B299A819F6D618816D70F",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x29b0da86e484e1c0029b56e817912d778ac0ec69",
+            "crypto1": "0x74b23882a30290451a17c44f4f05243b6b58c76d",
+            "crypto0_name": "YFI",
+            "crypto1_name": "ETH",
+            "pair_address": "0x0845c0bFe75691B1e21b24351aAc581a7FB6b7Df",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xe0654c8e6fd4d733349ac7e09f6f23da256bf475",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "SCREAM",
+            "pair_address": "0x30872e4fc4edbFD7a352bFC2463eb4fAe9C09086",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0xc5e2b037d30a390e62180970b3aa4e91868764cd",
+            "crypto0_name": "USDC",
+            "crypto1_name": "TAROT",
+            "pair_address": "0x35a60B8c750B4D834A27443f35269A84D06dE391",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x468003b688943977e6130f4f68f23aad939a1040",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "SPELL",
+            "pair_address": "0x78f82c16992932EfDd18d93f889141CcF326DBc2",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x90e892fed501ae00596448aecf998c88816e5c0f",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "DMD",
+            "pair_address": "0xF10F0EeB144Eb223DD8Ae7d5dd7f3327E63A3C94",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x90e892fed501ae00596448aecf998c88816e5c0f",
+            "crypto0_name": "USDC",
+            "crypto1_name": "DMD",
+            "pair_address": "0xf62475CbD5121e56FB09Eb9727Dd95e0755414aE",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x3dc57b391262e3aae37a08d91241f9ba9d58b570",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "YOSHI",
+            "pair_address": "0x6bB685358BC3991D9279562710F3a44B7e5F2D9b",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0xfb98b335551a418cd0737375a2ea0ded62ea213b",
+            "crypto0_name": "USDC",
+            "crypto1_name": "miMATIC",
+            "pair_address": "0x4dE9f0ED95de2461B6dB1660f908348c42893b1A",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x152888854378201e173490956085c711f1ded565",
+            "crypto1": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto0_name": "MST",
+            "crypto1_name": "WFTM",
+            "pair_address": "0x1a88E447c7468B28de490b25a076A4fFc0C68b16",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x152888854378201e173490956085c711f1ded565",
+            "crypto0_name": "USDC",
+            "crypto1_name": "MST",
+            "pair_address": "0x1f5c5b104d6246B3d096135806cd6C6e53e206F1",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x94ccf60f700146bea8ef7832820800e2dfa92eda",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "wsHEC",
+            "pair_address": "0x0BfE6f893a6bc443B575Ddf361A30f39aa03e59c",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x9fb9a33956351cf4fa040f65a13b835a3c8764e3",
+            "crypto1": "0xddcb3ffd12750b45d32e084887fdf1aabab34239",
+            "crypto0_name": "MULTI",
+            "crypto1_name": "ANY",
+            "pair_address": "0xA21E0B098F64aeF5acb696Ef2C7DfE29D13Cb25F",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x9fb9a33956351cf4fa040f65a13b835a3c8764e3",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "MULTI",
+            "pair_address": "0x297C8990134bf1eE08aE5D8805042fbac8781201",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x59d07a115fe3ffe5db3d52029d43cc0ef5e9ba08",
+            "crypto0_name": "USDC",
+            "crypto1_name": "SUPA",
+            "pair_address": "0xeF8354E6438C13085f965C8385A02d67AB5DA643",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0xc165d941481e68696f43ee6e99bfb2b23e0e3114",
+            "crypto0_name": "USDC",
+            "crypto1_name": "OXD",
+            "pair_address": "0xD5fa400a24EB2EA55BC5Bd29c989E70fbC626FfF",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x00a35fd824c717879bf370e70ac6868b95870dfb",
+            "crypto1": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto0_name": "IB",
+            "crypto1_name": "WFTM",
+            "pair_address": "0xcb10ef295021a7Af61aC78375026A8E5aF588Db9",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x112df7e3b4b7ab424f07319d4e92f41e6608c48b",
+            "crypto1": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto0_name": "pFTM",
+            "crypto1_name": "WFTM",
+            "pair_address": "0x9ce8e9b090e8AF873e793e0b78C484076F8CEECE",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x582423c10c9e83387a96d00a69ba3d11ee47b7b5",
+            "crypto0_name": "USDC",
+            "crypto1_name": "RING",
+            "pair_address": "0x84fc84B998A01e34c8A9714A600aeBDe8b4Cc671",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x8a41f13a4fae75ca88b1ee726ee9d52b148b0498",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "PAE",
+            "pair_address": "0x2DC234DbfC085DdbC36a6EACC061D7333Cd397b0",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x6c021ae822bea943b2e66552bde1d2696a53fbb7",
+            "crypto1": "0x8d7d3409881b51466b483b11ea1b8a03cded89ae",
+            "crypto0_name": "TOMB",
+            "crypto1_name": "BASED",
+            "pair_address": "0xaB2ddCBB346327bBDF97120b0dD5eE172a9c8f9E",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x49c290ff692149a4e16611c694fded42c954ab7a",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "BSHARE",
+            "pair_address": "0x6F607443DC307DCBe570D0ecFf79d65838630B56",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x49c290ff692149a4e16611c694fded42c954ab7a",
+            "crypto1": "0x8d7d3409881b51466b483b11ea1b8a03cded89ae",
+            "crypto0_name": "BSHARE",
+            "crypto1_name": "BASED",
+            "pair_address": "0x5748b5Dd1f59342f85d170c48C427959c2f9f262",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0xe83ce6bfb580583bd6a62b4be7b34fc25f02910d",
+            "crypto0_name": "USDC",
+            "crypto1_name": "FABBC",
+            "pair_address": "0xEa38Ca55c31F9a3A259d231E20BA401aDa0Dc3b0",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0xde12c7959e1a72bbe8a5f7a1dc8f8eef9ab011b3",
+            "crypto0_name": "USDC",
+            "crypto1_name": "DEI",
+            "pair_address": "0xD343b8361Ce32A9e570C1fC8D4244d32848df88B",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21ada0d2ac28c3a5fa3cd2ee30882da8812279b6",
+            "crypto1": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto0_name": "OATH",
+            "crypto1_name": "WFTM",
+            "pair_address": "0x084f5041F5d8d202AD958230A7E56BB32dFd38Bb",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0xe20b9e246db5a0d21bf9209e4858bc9a3ff7a034",
+            "crypto0_name": "USDC",
+            "crypto1_name": "wBAN",
+            "pair_address": "0x6bADcf8184a760326528b11057C00952811f77af",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xe20b9e246db5a0d21bf9209e4858bc9a3ff7a034",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "wBAN",
+            "pair_address": "0x1406E49b5B0dA255307FE25cC21C675D4Ffc73e0",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xde5ed76e7c05ec5e4572cfc88d1acea165109e44",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "DEUS",
+            "pair_address": "0xaF918eF5b9f33231764A5557881E6D3e5277d456",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x3e01b7e242d5af8064cb9a8f9468ac0f8683617c",
+            "crypto0_name": "USDC",
+            "crypto1_name": "ORBS",
+            "pair_address": "0x4FaA520fe975228F54b30c6996129950E975BD8f",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x7381ed41f6de418dde5e84b55590422a57917886",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "beFTM",
+            "pair_address": "0xB5512e3fA8304d33Cdae4a40C21F1d3f70Eba45a",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0xd7028092c830b5c8fce061af2e593413ebbc1fc1",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "sFTMX",
+            "pair_address": "0xE67980fc955FECfDA8A92BbbFBCc9f0C4bE60A9A",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x70f9fd19f857411b089977e7916c05a0fc477ac9",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "gALCX",
+            "pair_address": "0xD5b545e788370aC454BfA765e7875A3a2253cC3b",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x4f851750a3e6f80f1e1f89c67b56960bfc29a934",
+            "crypto0_name": "USDC",
+            "crypto1_name": "KALM",
+            "pair_address": "0x6c43cA3C4F26d02E85D1301fd0eFA64139aE5B0e",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x4f851750a3e6f80f1e1f89c67b56960bfc29a934",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "KALM",
+            "pair_address": "0x0a96B04234481961a5a02Dd57059B323e0d4e45d",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0x94a7f270cd12545a277e656266aef5e27df3eb28",
+            "crypto0_name": "USDC",
+            "crypto1_name": "FSTRM",
+            "pair_address": "0x02287Beac0737c9438552f6f97c510918Aee6693",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x1f0f8268d02b607740c7289093b9bc42f93d8439",
+            "crypto1": "0xc543c3af35a39e57b58efb0d2cbfc113d79ca5c7",
+            "crypto0_name": "BUSD",
+            "crypto1_name": "USDV",
+            "pair_address": "0xC7358D32aE87993C2144A54cb8e876f4c9827BE3",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "crypto1": "0xb37528da6b4d378305d000a66ad91bd88e626761",
+            "crypto0_name": "USDC",
+            "crypto1_name": "MIDAS",
+            "pair_address": "0x651D8B9911F1183daa6C52852A4CBBFb59746bD5",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x321162cd933e2be498cd2267a90534a804051b11",
+            "crypto1": "0xb37528da6b4d378305d000a66ad91bd88e626761",
+            "crypto0_name": "BTC",
+            "crypto1_name": "MIDAS",
+            "pair_address": "0x7F98C0c0519929502Ab94baa42c94dfCBc9477f1",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        },
+        {
+            "exchange": "spooky",
+            "crypto0": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "crypto1": "0x87d57f92852d7357cf32ac4f6952204f2b0c1a27",
+            "crypto0_name": "WFTM",
+            "crypto1_name": "RNDM",
+            "pair_address": "0x0ffED9D3C3e214771836cC83A2c1F9155a8cc68A",
+            "router_address": "0xf491e7b69e4244ad4002bc14e878a34207e38c29",
+            "exchange_fee": "0.2"
+        }
+    ],
+    "cryptos": [
+        {
+            "name": "USDC",
+            "address": "0x04068da6c83afcfa0e13ba15a6696662335d5b75",
+            "precision": 6
+        },
+        {
+            "name": "WFTM",
+            "address": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+            "precision": 18
+        },
+        {
+            "name": "fUSDT",
+            "address": "0x049d68029688eabf473097a2fc38ef61633a3c7a",
+            "precision": 6
+        },
+        {
+            "name": "LQDR",
+            "address": "0x10b620b2dbac4faa7d7ffd71da486f5d44cd86f9",
+            "precision": 18
+        },
+        {
+            "name": "MIM",
+            "address": "0x82f0b8b456c1a451378467398982d4834b6829c1",
+            "precision": 18
+        },
+        {
+            "name": "CRV",
+            "address": "0x1e4f97b9f9f913c46f1632781732927b9019c68b",
+            "precision": 18
+        },
+        {
+            "name": "MST",
+            "address": "0x152888854378201e173490956085c711f1ded565",
+            "precision": 18
+        },
+        {
+            "name": "SPELL",
+            "address": "0x468003b688943977e6130f4f68f23aad939a1040",
+            "precision": 18
+        },
+        {
+            "name": "IB",
+            "address": "0x00a35fd824c717879bf370e70ac6868b95870dfb",
+            "precision": 18
+        },
+        {
+            "name": "BIFI",
+            "address": "0xd6070ae98b8069de6b494332d1a1a81b6179d960",
+            "precision": 18
+        },
+        {
+            "name": "BOO",
+            "address": "0x841fad6eae12c286d1fd18d1d525dffa75c7effe",
+            "precision": 18
+        },
+        {
+            "name": "DAI",
+            "address": "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e",
+            "precision": 18
+        },
+        {
+            "name": "BTC",
+            "address": "0x321162cd933e2be498cd2267a90534a804051b11",
+            "precision": 8
+        },
+        {
+            "name": "SPIRIT",
+            "address": "0x5cc61a78f164885776aa610fb0fe1257df78e59b",
+            "precision": 18
+        },
+        {
+            "name": "SOLID",
+            "address": "0x888ef71766ca594ded1f0fa3ae64ed2941740a20",
+            "precision": 18
+        },
+        {
+            "name": "SOLIDsex",
+            "address": "0x41adac6c1ff52c5e27568f27998d747f7b69795b",
+            "precision": 18
+        },
+        {
+            "name": "YFI",
+            "address": "0x29b0da86e484e1c0029b56e817912d778ac0ec69",
+            "precision": 18
+        },
+        {
+            "name": "SCREAM",
+            "address": "0xe0654c8e6fd4d733349ac7e09f6f23da256bf475",
+            "precision": 18
+        },
+        {
+            "name": "OATH",
+            "address": "0x21ada0d2ac28c3a5fa3cd2ee30882da8812279b6",
+            "precision": 18
+        },
+        {
+            "name": "SCARAB",
+            "address": "0x2e79205648b85485731cfe3025d66cf2d3b059c4",
+            "precision": 18
+        },
+        {
+            "name": "DEI",
+            "address": "0xde12c7959e1a72bbe8a5f7a1dc8f8eef9ab011b3",
+            "precision": 18
+        },
+        {
+            "name": "MAGIK",
+            "address": "0x87a5c9b60a3aaf1064006fe64285018e50e0d020",
+            "precision": 18
+        },
+        {
+            "name": "OXD",
+            "address": "0xc165d941481e68696f43ee6e99bfb2b23e0e3114",
+            "precision": 18
+        },
+        {
+            "name": "BOMB",
+            "address": "0x8503eb4a136bdbeb323e37aa6e0fa0c772228378",
+            "precision": 0
+        },
+        {
+            "name": "TOMB",
+            "address": "0x6c021ae822bea943b2e66552bde1d2696a53fbb7",
+            "precision": 18
+        },
+        {
+            "name": "MULTI",
+            "address": "0x9fb9a33956351cf4fa040f65a13b835a3c8764e3",
+            "precision": 18
+        },
+        {
+            "name": "WeVE",
+            "address": "0x911da02c1232a3c3e1418b834a311921143b04d7",
+            "precision": 18
+        },
+        {
+            "name": "pFTM",
+            "address": "0x112df7e3b4b7ab424f07319d4e92f41e6608c48b",
+            "precision": 18
+        },
+        {
+            "name": "ETH",
+            "address": "0x74b23882a30290451a17c44f4f05243b6b58c76d",
+            "precision": 18
+        },
+        {
+            "name": "miMATIC",
+            "address": "0xfb98b335551a418cd0737375a2ea0ded62ea213b",
+            "precision": 18
+        },
+        {
+            "name": "wsHEC",
+            "address": "0x94ccf60f700146bea8ef7832820800e2dfa92eda",
+            "precision": 18
+        },
+        {
+            "name": "ICE",
+            "address": "0xf16e81dce15b08f326220742020379b855b87df9",
+            "precision": 18
+        },
+        {
+            "name": "FRAX",
+            "address": "0xdc301622e621166bd8e82f2ca0a26c13ad0be355",
+            "precision": 18
+        },
+        {
+            "name": "YOSHI",
+            "address": "0x3dc57b391262e3aae37a08d91241f9ba9d58b570",
+            "precision": 18
+        },
+        {
+            "name": "RING",
+            "address": "0x582423c10c9e83387a96d00a69ba3d11ee47b7b5",
+            "precision": 18
+        },
+        {
+            "name": "SUSHI",
+            "address": "0xae75a438b2e0cb8bb01ec1e1e376de11d44477cc",
+            "precision": 18
+        },
+        {
+            "name": "TAROT",
+            "address": "0xc5e2b037d30a390e62180970b3aa4e91868764cd",
+            "precision": 18
+        },
+        {
+            "name": "renBTC",
+            "address": "0xdbf31df14b66535af65aac99c32e9ea844e14501",
+            "precision": 8
+        },
+        {
+            "name": "LINSPIRIT",
+            "address": "0xc5713b6a0f26bf0fdc1c52b90cd184d950be515c",
+            "precision": 18
+        },
+        {
+            "name": "SEX",
+            "address": "0xd31fcd1f7ba190dbc75354046f6024a9b86014d7",
+            "precision": 18
+        },
+        {
+            "name": "RAINSPIRIT",
+            "address": "0xf9c6e3c123f0494a4447100bd7dbd536f43cc33a",
+            "precision": 18
+        },
+        {
+            "name": "DEUS",
+            "address": "0xde5ed76e7c05ec5e4572cfc88d1acea165109e44",
+            "precision": 18
+        },
+        {
+            "name": "MSHARE",
+            "address": "0xc8ca9026ad0882133ef126824f6852567c571a4e",
+            "precision": 18
+        },
+        {
+            "name": "BNB",
+            "address": "0xd67de0e0a0fd7b15dc8348bb9be742f3c5850454",
+            "precision": 18
+        },
+        {
+            "name": "beFTM",
+            "address": "0x7381ed41f6de418dde5e84b55590422a57917886",
+            "precision": 18
+        },
+        {
+            "name": "ZOO",
+            "address": "0x09e145a1d53c0045f41aeef25d8ff982ae74dd56",
+            "precision": 0
+        },
+        {
+            "name": "ANY",
+            "address": "0xddcb3ffd12750b45d32e084887fdf1aabab34239",
+            "precision": 18
+        },
+        {
+            "name": "PGUNK",
+            "address": "0xf8fc059dafdce4ef2edfc72cbbaf410d7531e610",
+            "precision": 9
+        },
+        {
+            "name": "GSCARAB",
+            "address": "0x6ab5660f0b1f174cfa84e9977c15645e4848f5d6",
+            "precision": 18
+        },
+        {
+            "name": "BASED",
+            "address": "0x8d7d3409881b51466b483b11ea1b8a03cded89ae",
+            "precision": 18
+        },
+        {
+            "name": "PAE",
+            "address": "0x8a41f13a4fae75ca88b1ee726ee9d52b148b0498",
+            "precision": 18
+        },
+        {
+            "name": "BSHARE",
+            "address": "0x49c290ff692149a4e16611c694fded42c954ab7a",
+            "precision": 18
+        },
+        {
+            "name": "MIDAS",
+            "address": "0xb37528da6b4d378305d000a66ad91bd88e626761",
+            "precision": 18
+        },
+        {
+            "name": "LINK",
+            "address": "0xb3654dc3d10ea7645f8319668e8f54d2574fbdc8",
+            "precision": 18
+        },
+        {
+            "name": "RNDM",
+            "address": "0x87d57f92852d7357cf32ac4f6952204f2b0c1a27",
+            "precision": 18
+        },
+        {
+            "name": "SUPA",
+            "address": "0x59d07a115fe3ffe5db3d52029d43cc0ef5e9ba08",
+            "precision": 18
+        },
+        {
+            "name": "FABBC",
+            "address": "0xe83ce6bfb580583bd6a62b4be7b34fc25f02910d",
+            "precision": 8
+        },
+        {
+            "name": "wBAN",
+            "address": "0xe20b9e246db5a0d21bf9209e4858bc9a3ff7a034",
+            "precision": 18
+        },
+        {
+            "name": "ORBS",
+            "address": "0x3e01b7e242d5af8064cb9a8f9468ac0f8683617c",
+            "precision": 18
+        },
+        {
+            "name": "sFTMX",
+            "address": "0xd7028092c830b5c8fce061af2e593413ebbc1fc1",
+            "precision": 18
+        },
+        {
+            "name": "gALCX",
+            "address": "0x70f9fd19f857411b089977e7916c05a0fc477ac9",
+            "precision": 18
+        },
+        {
+            "name": "FSTRM",
+            "address": "0x94a7f270cd12545a277e656266aef5e27df3eb28",
+            "precision": 18
+        },
+        {
+            "name": "BSGG",
+            "address": "0x5a33869045db8a6a16c9f351293501cfd92cf7ed",
+            "precision": 18
+        },
+        {
+            "name": "BUSD",
+            "address": "0x1f0f8268d02b607740c7289093b9bc42f93d8439",
+            "precision": 18
+        },
+        {
+            "name": "USDV",
+            "address": "0xc543c3af35a39e57b58efb0d2cbfc113d79ca5c7",
+            "precision": 18
+        },
+        {
+            "name": "DMD",
+            "address": "0x90e892fed501ae00596448aecf998c88816e5c0f",
+            "precision": 18
+        },
+        {
+            "name": "KALM",
+            "address": "0x4f851750a3e6f80f1e1f89c67b56960bfc29a934",
+            "precision": 18
+        }
+    ]
+}
