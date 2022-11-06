@@ -105,7 +105,7 @@ function Graph(props: {
                 };
             });
             const icons =
-                require('../../node_modules/cryptocurrency-icons/svg/color/kmd.svg').default;
+                require('../../node_modules/cryptocurrency-icons/svg/color/usdc.svg').default;
             const graph = {
                 counter: 0,
                 nodes: mapData.data.crypto.map((c) => ({
