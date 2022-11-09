@@ -1,5 +1,8 @@
 import db_operations from "../db/db_operations";
 const router = require("express").Router();
+const { readFile } = require("fs");
+const { promisify } = require("util");
+const asyncReadFile = promisify(readFile);
 
 module.exports = () => {
   router.get("/arbs", async (req: any, res: any) => {
@@ -20,6 +23,9 @@ module.exports = () => {
       req.params.id
     );
     const crypto = await db_operations.db_export_crypto(req.params.id);
+    const icon = await asyncReadFile(
+      "/Users/gracelr/arbProj/arb-react-app/arb-api/node_modules/cryptocurrency-icons/svg/color/kmd.svg"
+    );
     res.send({
       exchangepair: exchangepair.rows.map((pair) => ({
         id: pair[0],
@@ -42,9 +48,9 @@ module.exports = () => {
         is_stable: node[5],
         usd_price: node[6],
         wallet_amount: node[7],
+        icon: icon.toString(),
       })),
     });
   });
-
   return router;
 };
