@@ -27,6 +27,7 @@ export interface Crypto {
     is_stable: boolean;
     usd_price: number;
     wallet_amount: number;
+    icon: any;
 }
 
 export interface Map {

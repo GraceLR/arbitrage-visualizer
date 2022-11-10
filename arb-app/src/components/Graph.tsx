@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import NodesGraph from 'react-vis-ts';
 import axios from 'axios';
 
 import { Map, GraphMap } from '../types/types';
-// import InnerGraphNew from './InnerGraphNew';
-import NodesGraph from 'react-vis-ts';
-import { Console } from 'console';
+import icons from './assets/icons';
 
+const genIcon = icons.GENERIC;
 const options = {
     layout: {
         hierarchical: false,
@@ -59,12 +59,11 @@ function Graph(props: {
             const id = counter - 1;
             const from = nodeId;
             const color = '#bdbdbd';
-            const icon = axios.get('');
             const node = {
                 id,
                 label: id,
                 shape: 'image',
-                image: icon,
+                image: genIcon,
                 color,
                 x,
                 y,
@@ -81,7 +80,6 @@ function Graph(props: {
     useEffect(() => {
         const getMap = async (arb_id: number) => {
             const mapData = await axios.get<Map>(`/api/arbs/${arb_id}`);
-            // setMap((_prev) => mapData.data);
             const nodesWithPos: { [key: number]: boolean } = {};
             const edges = mapData.data.exchangepair.map((p) => {
                 const pos = p.position;
@@ -106,15 +104,13 @@ function Graph(props: {
             const graph = {
                 counter: 0,
                 nodes: mapData.data.crypto.map((c) => {
-                    // const icon =
-                    //     require(`../../node_modules/cryptocurrency-icons/svg/color/dai.svg`).default;
-                    const icon = axios.get('');
+                    const icon = (icons as any)[c.crypto];
                     return {
                         id: c.id,
                         // label: c.crypto,
                         label: 'label',
                         shape: 'image',
-                        image: icon,
+                        image: icon ?? genIcon,
                         color: nodesWithPos[c.id] ? '#d50000' : '#bdbdbd',
                         // ask jason how to define the color
                     };
