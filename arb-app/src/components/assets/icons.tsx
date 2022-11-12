@@ -268,243 +268,73 @@ const DOT =
     require('../../../node_modules/cryptocurrency-icons/svg/color/dot.svg').default;
 const DRGN =
     require('../../../node_modules/cryptocurrency-icons/svg/color/drgn.svg').default;
-export default {
-    GENERIC,
-    $PAC,
-    XBTC,
-    INCH,
-    GIVE,
-    AAVE,
-    ABT,
-    ACT,
-    ACTN,
-    ADA,
-    ADD,
-    ADX,
-    AE,
-    AEON,
-    AEUR,
-    AGI,
-    AGRS,
-    AION,
-    ALGO,
-    AMB,
-    AMP,
-    AMPL,
-    ANKR,
-    ANT,
-    APE,
-    APEX,
-    APPC,
-    ARDR,
-    ARG,
-    ARK,
-    ARN,
-    ARNX,
-    ARY,
-    AST,
-    ATLAS,
-    ATM,
-    ATOM,
-    AUDR,
-    AURY,
-    AUTO,
-    AVAX,
-    AYWA,
-    BAB,
-    BAL,
-    BAND,
-    BAT,
-    BAY,
-    BCBC,
-    BCC,
-    BCD,
-    BCH,
-    BCIO,
-    BCN,
-    BCO,
-    BCPT,
-    BDL,
-    BEAM,
-    BELA,
-    BIX,
-    BLCN,
-    BLK,
-    BLOCK,
-    BLZ,
-    BNB,
-    BNT,
-    BNTY,
-    BOOTY,
-    BOS,
-    BPT,
-    BQ,
-    BRD,
-    BSD,
-    BSV,
-    BTC,
-    BTCD,
-    BTCH,
-    BTCP,
-    BTCZ,
-    BTDX,
-    BTG,
-    BTM,
-    BTS,
-    BTT,
-    BTX,
-    BURST,
-    BZE,
-    CALL,
-    CC,
-    CDN,
-    CDT,
-    CENZ,
-    CHAIN,
-    CHAT,
-    CHIPS,
-    CHSB,
-    CHZ,
-    CIX,
-    CLAM,
-    CLOAK,
-    CMM,
-    CMT,
-    CND,
-    CNX,
-    CNY,
-    COB,
-    COLX,
-    COMP,
-    COQUI,
-    CRED,
-    CRPT,
-    CRV,
-    CRW,
-    CS,
-    CTR,
-    CTXC,
-    CVC,
-    D,
-    DAI,
-    DASH,
-    DAT,
-    DATA,
-    DBC,
-    DCN,
-    DCR,
-    DEEZ,
-    DENT,
-    DEW,
-    DGB,
-    DGD,
-    DLT,
-    DNT,
-    DOCK,
-    DOGE,
-    DOT,
-    DRGN,
-};
+const DROP =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/drop.svg').default;
+const DTA =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/dta.svg').default;
+const DTH =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/dth.svg').default;
+const DTR =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/dtr.svg').default;
+const EBST =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/ebst.svg').default;
+const ECA =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/eca.svg').default;
+const EDG =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/edg.svg').default;
+const EDO =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/edo.svg').default;
+const EDOGE =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/edoge.svg').default;
+const ELA =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/ela.svg').default;
+const ELEC =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/elec.svg').default;
+const ELF =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/elf.svg').default;
+const ELIX =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/elix.svg').default;
+const ELLA =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/ella.svg').default;
+const EMB =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/emb.svg').default;
+const EMC =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/emc.svg').default;
+const EMC2 =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/emc2.svg').default;
+const ENG =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/eng.svg').default;
+const ENJ =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/enj.svg').default;
+const ENTRP =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/entrp.svg').default;
+const EON =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/eon.svg').default;
+const EOP =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/eop.svg').default;
+const EOS =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/eos.svg').default;
+const EQLI =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/eqli.svg').default;
+const EQUA =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/equa.svg').default;
+const ETC =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/etc.svg').default;
+const ETH =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/eth.svg').default;
+const ETHOS =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/ethos.svg').default;
+const ETN =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/etn.svg').default;
+const ETP =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/etp.svg').default;
+const EUR =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/eur.svg').default;
+const EVX =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/evx.svg').default;
+const EXMO =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/exmo.svg').default;
 
-// drop.svg
-// Upgrade SVGO
-// 3 years ago
-// dta.svg
-// Minify SVG's (#211)
-// 4 years ago
-// dth.svg
-// Upgrade SVGO
-// 3 years ago
-// dtr.svg
-// Upgrade SVGO
-// 3 years ago
-// ebst.svg
-// Upgrade SVGO
-// 3 years ago
-// eca.svg
-// Upgrade SVGO
-// 3 years ago
-// edg.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// edo.svg
-// Upgrade SVGO
-// 3 years ago
-// edoge.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// ela.svg
-// Minify SVG's (#211)
-// 4 years ago
-// elec.svg
-// Update manifest
-// 4 years ago
-// elf.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// elix.svg
-// Minify SVG's (#211)
-// 4 years ago
-// ella.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// emb.svg
-// Added: SKL, ICP, HNS, CHSB, FLUX, HUSD, EMB, SAFEMOON, SAND, ONE, SPA…
-// 16 months ago
-// emc.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// emc2.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// eng.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// enj.svg
-// Upgrade SVGO
-// 3 years ago
-// entrp.svg
-// Upgrade SVGO
-// 3 years ago
-// eon.svg
-// Upgrade SVGO
-// 3 years ago
-// eop.svg
-// Update manifest
-// 4 years ago
-// eos.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// eqli.svg
-// Upgrade SVGO
-// 3 years ago
-// equa.svg
-// Upgrade SVGO
-// 3 years ago
-// etc.svg
-// Minify SVG's (#211)
-// 4 years ago
-// eth.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// ethos.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// etn.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// etp.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// eur.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// evx.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// exmo.svg
-// Add viewBox to old SVG icons
-// 16 months ago
 // exp.svg
 // Upgrade SVGO
 // 3 years ago
@@ -1451,3 +1281,141 @@ export default {
 // Upgrade SVGO
 // 3 years ago
 // zrx.svg
+
+export default {
+    GENERIC,
+    $PAC,
+    XBTC,
+    INCH,
+    GIVE,
+    AAVE,
+    ABT,
+    ACT,
+    ACTN,
+    ADA,
+    ADD,
+    ADX,
+    AE,
+    AEON,
+    AEUR,
+    AGI,
+    AGRS,
+    AION,
+    ALGO,
+    AMB,
+    AMP,
+    AMPL,
+    ANKR,
+    ANT,
+    APE,
+    APEX,
+    APPC,
+    ARDR,
+    ARG,
+    ARK,
+    ARN,
+    ARNX,
+    ARY,
+    AST,
+    ATLAS,
+    ATM,
+    ATOM,
+    AUDR,
+    AURY,
+    AUTO,
+    AVAX,
+    AYWA,
+    BAB,
+    BAL,
+    BAND,
+    BAT,
+    BAY,
+    BCBC,
+    BCC,
+    BCD,
+    BCH,
+    BCIO,
+    BCN,
+    BCO,
+    BCPT,
+    BDL,
+    BEAM,
+    BELA,
+    BIX,
+    BLCN,
+    BLK,
+    BLOCK,
+    BLZ,
+    BNB,
+    BNT,
+    BNTY,
+    BOOTY,
+    BOS,
+    BPT,
+    BQ,
+    BRD,
+    BSD,
+    BSV,
+    BTC,
+    BTCD,
+    BTCH,
+    BTCP,
+    BTCZ,
+    BTDX,
+    BTG,
+    BTM,
+    BTS,
+    BTT,
+    BTX,
+    BURST,
+    BZE,
+    CALL,
+    CC,
+    CDN,
+    CDT,
+    CENZ,
+    CHAIN,
+    CHAT,
+    CHIPS,
+    CHSB,
+    CHZ,
+    CIX,
+    CLAM,
+    CLOAK,
+    CMM,
+    CMT,
+    CND,
+    CNX,
+    CNY,
+    COB,
+    COLX,
+    COMP,
+    COQUI,
+    CRED,
+    CRPT,
+    CRV,
+    CRW,
+    CS,
+    CTR,
+    CTXC,
+    CVC,
+    D,
+    DAI,
+    DASH,
+    DAT,
+    DATA,
+    DBC,
+    DCN,
+    DCR,
+    DEEZ,
+    DENT,
+    DEW,
+    DGB,
+    DGD,
+    DLT,
+    DNT,
+    DOCK,
+    DOGE,
+    DOT,
+    DRGN,
+};
