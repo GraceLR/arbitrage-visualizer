@@ -334,97 +334,65 @@ const EVX =
     require('../../../node_modules/cryptocurrency-icons/svg/color/evx.svg').default;
 const EXMO =
     require('../../../node_modules/cryptocurrency-icons/svg/color/exmo.svg').default;
+const EXP =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/exp.svg').default;
+const FAIR =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/fair.svg').default;
+const FCT =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/fct.svg').default;
+const FIDA =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/fida.svg').default;
+const FIL =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/fil.svg').default;
+const FJC =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/fjc.svg').default;
+const FLDC =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/fldc.svg').default;
+const FLO =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/flo.svg').default;
+const FLUX =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/flux.svg').default;
+const FSN =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/fsn.svg').default;
+const FTC =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/ftc.svg').default;
+const FUEL =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/fuel.svg').default;
+const FUN =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/fun.svg').default;
+const GAME =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/game.svg').default;
+const GAS =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/gas.svg').default;
+const GBP =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/gbp.svg').default;
+const GBX =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/gbx.svg').default;
+const GBYTE =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/gbyte.svg').default;
+const GIN =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/gin.svg').default;
+const GLXT =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/glxt.svg').default;
+const GMR =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/gmr.svg').default;
+const GMT =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/gmt.svg').default;
+const GNO =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/gno.svg').default;
+const GNT =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/gnt.svg').default;
+const GOLD =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/gold.svg').default;
+const GRC =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/grc.svg').default;
+const GRIN =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/grin.svg').default;
+const GRS =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/grs.svg').default;
+const GRT =
+    require('../../../node_modules/cryptocurrency-icons/svg/color/grt.svg').default;
 
-// exp.svg
-// Upgrade SVGO
-// 3 years ago
-// fair.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// fct.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// fida.svg
-// Added: 1INCH, APE, ATLAS, AURY, AVAX, CHZ, FIDA, GMT, OXY, QNT, RAY, SER
-// 3 months ago
-// fil.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// fjc.svg
-// Upgrade SVGO
-// 3 years ago
-// fldc.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// flo.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// flux.svg
-// Added: SKL, ICP, HNS, CHSB, FLUX, HUSD, EMB, SAFEMOON, SAND, ONE, SPA…
-// 16 months ago
-// fsn.svg
-// Upgrade SVGO
-// 3 years ago
-// ftc.svg
-// Upgrade SVGO
-// 3 years ago
-// fuel.svg
-// Upgrade SVGO
-// 3 years ago
-// fun.svg
-// Upgrade SVGO
-// 3 years ago
-// game.svg
-// Minify SVG's (#211)
-// 4 years ago
-// gas.svg
-// Minify SVG's (#211)
-// 4 years ago
-// gbp.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// gbx.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// gbyte.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// generic.svg
-// Upgrade SVGO
-// 3 years ago
-// gin.svg
-// Upgrade SVGO
-// 3 years ago
-// glxt.svg
-// Upgrade SVGO
-// 3 years ago
-// gmr.svg
-// Upgrade SVGO
-// 3 years ago
-// gmt.svg
-// Added: 1INCH, APE, ATLAS, AURY, AVAX, CHZ, FIDA, GMT, OXY, QNT, RAY, SER
-// 3 months ago
-// gno.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// gnt.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// gold.svg
-// Upgrade SVGO
-// 3 years ago
-// grc.svg
-// Upgrade SVGO
-// 3 years ago
-// grin.svg
-// Upgrade SVGO
-// 3 years ago
-// grs.svg
-// Add viewBox to old SVG icons
-// 16 months ago
-// grt.svg
-// Added: SOL, GRT, STX, AAVE, CRV, SUSHI, NKN, SNX, ANKR, KSM
-// 2 years ago
 // gsc.svg
 // Upgrade SVGO
 // 3 years ago
